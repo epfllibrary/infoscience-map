@@ -9,7 +9,7 @@ gems:
 # If you are hosting it on Github for some project with name 'projectname', then the url and baseurl should look like:
 #url: "http://username.github.io/projectname"
 #baseurl: "/projectname"
-url: "https://jsicot.github.io/infoscience-map/"
+url: "https://epfllibrary.github.io/infoscience-map"
 enforce_ssl: ""
 baseurl: "/infoscience-map"
 
