@@ -1,0 +1,20 @@
+label: Patent Priority date
+label-fr: Date (priorité)
+name: dcterms_dateAccepted
+schema: dcterms
+dc-element: dateAccepted
+dc-qualifier: ''
+definition: Description coming soon...
+obligation: optional
+type: descriptive
+repeatable: 'true'
+legacy_marc: ''
+indexes:
+- configuration: researchoutputs
+  indexes:
+  - dcterms.dateAccepted
+range:
+- label: Date
+  uri: ''
+  values:
+  - ''

@@ -1,0 +1,35 @@
+label: File type
+label-fr: Type de fichier
+name: dspace_file_type
+schema: dspace
+dc-element: file
+dc-qualifier: type
+definition: Description coming soon...
+obligation: Required
+type: descriptive
+repeatable: 'false'
+legacy_marc: '8564_0'
+indexes:
+- configuration: researchoutputs
+  indexes:
+  - dspace.file.type
+range:
+- label: List (bitstream_types)
+  uri: ''
+  values:
+  - main document
+  - main dataset
+  - supplementary material/Information
+  - presentation
+  - video recording
+  - audio recording
+  - poster
+  - figures
+  - source code
+  - readme
+  - raw data
+  - anonymized data
+  - processed data
+  - figures
+  - thumbnail
+  - other

@@ -1,0 +1,20 @@
+label: File description
+label-fr: Description du fichier
+name: dc_description
+schema: dc
+dc-element: description
+dc-qualifier: ''
+definition: Description coming soon...
+obligation: optional
+type: descriptive
+repeatable: 'false'
+legacy_marc: 8564_y
+indexes:
+- configuration: researchoutputs
+  indexes:
+  - dc.description
+range:
+- label: String
+  uri: ''
+  values:
+  - ''

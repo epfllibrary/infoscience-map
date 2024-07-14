@@ -1,0 +1,20 @@
+label: Related title
+label-fr: Titre de la ressource liée
+name: dc_relation_title
+schema: dc
+dc-element: relation
+dc-qualifier: title
+definition: Description coming soon...
+obligation: optional
+type: descriptive
+repeatable: 'true'
+legacy_marc: ''
+indexes:
+- configuration: researchoutputs
+  indexes:
+  - dc.relation.title
+range:
+- label: String or Item authority
+  uri: ''
+  values:
+  - ''

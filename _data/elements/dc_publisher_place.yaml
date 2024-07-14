@@ -1,0 +1,20 @@
+label: Publisher place or Institution place
+label-fr: Lieu d'édition
+name: dc_publisher_place
+schema: dc
+dc-element: publisher
+dc-qualifier: place
+definition: Description coming soon...
+obligation: optional
+type: descriptive
+repeatable: 'false'
+legacy_marc: 260__a
+indexes:
+- configuration: researchoutputs
+  indexes:
+  - dc.publisher.place
+range:
+- label: String
+  uri: ''
+  values:
+  - ''

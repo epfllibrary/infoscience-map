@@ -1,0 +1,20 @@
+label: Contributor(s) or Corporate author(s)
+label-fr: Contributeur(s)
+name: dc_contributor
+schema: dc
+dc-element: contributor
+dc-qualifier: ''
+definition: Description coming soon...
+obligation: optional
+type: descriptive
+repeatable: 'true'
+legacy_marc: 710__a
+indexes:
+- configuration: researchoutputs
+  indexes:
+  - dc.contributor
+range:
+- label: String or editor authority
+  uri: ''
+  values:
+  - ''

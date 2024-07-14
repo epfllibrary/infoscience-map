@@ -1,64 +1,111 @@
 descriptive:
-  - alternative
-  - contributor
-  - creator
-  - date
-  - description
-  - extent
-  - format
-  - hasType
-  - language
-  - spatial
-  - publisher
-  - partOf
-  - subject
-  - temporal
-  - title
-  - type
+- dspace_entity_type
+- dc_title
+- dc_title_alternative
+- dc_type
+- dc_identifier_doi
+- dc_identifier_isbn
+- dc_identifier_iso
+- dc_identifier_standardno
+- dc_identifier_reportno
+- dc_identifier_patentno
+- dc_identifier_applicationnumber
+- dc_identifier_prioritynumber
+- epfl_contributor_role
+- dc_contributor_author
+- oairecerif_affiliation_orgunit
+- oairecerif_author_affiliation
+- dc_contributor_scientificeditor
+- oairecerif_scientificeditor_affiliation
+- dc_contributor_advisor
+- oairecerif_advisor_affiliation
+- dc_contributor
+- oairecerif_contributor_affiliation
+- epfl_thesis_jury
+- dcterms_rightHolder
+- dc_date_issued
+- epfl_patent_date
+- dcterms_dateAccepted
+- dcterms_dateSubmitted
+- epfl_thesis_publicDefenseYear
+- dc_language_iso
+- dc_publisher
+- dc_publisher_place
+- dc_relation_journal
+- dc_relation_issn
+- dc_relation_ispartof
+- dc_relation_doi
+- dc_relation_isbn
+- dc_relation_ispartofseries
+- dc_relation_serieissn
+- epfl_relation_issuetitle
+- dc_description_edition
+- epfl_part_name
+- epfl_part_number
+- epfl_part_section
+- oaire_citation_articlenumber
+- oaire_citation_endPage
+- oaire_citation_issue
+- oaire_citation_startPage
+- oaire_citation_volume
+- dc_description_abstract
+- dc_description_notes
+- dc_description_version
+- dc_size
+- dc_format_extent
+- dc_audience
+- epfl_patent_kindcode
+- oairecerif_patent_country
+- epfl_tto
+- dc_subject
+- epfl_peerreviewed
+- epfl_url
+- epfl_url_description
+- dc_relation_conference
+- epfl_relation_conferenceType
+- oaire_citation_conferenceDate
+- oaire_citation_conferencePlace
+- crisfund_award_uri
+- dc_relation_funding
+- dc_relation_grantno
+- oairecerif_funder
+- datacite_relatedIdentifier
+- datacite_relationType
+- dc_relation_title
+- epfl_award
+- epfl_award_date
+- dc_description
+- dspace_file_type
+- oaire_licenseCondition
+- oaire_version
+legacy:
+- cris_legacyId
+- epfl_legacy_itemtype
+- epfl_thesis_degreelevel
 administrative:
-  - accessRights
-  - aSpaceUri
-  - isPartOf
-  - isShownAt
-  - donor
-  - identifier
-  - note
-  - source
-  - relation
-  - rights
-  - rightsHolder
-brays:
-  - title
-  - alternative
-  - partOf
-  - creator
-  - contributor
-  - publisher
-  - date
-  - language
-  - description
-  - subject
-  - spatial
-  - temporal
-  - hasType
-  - format
-  - type
-  - extent
-  - identifier
-  - isPartOf
-  - aSpaceUri
-  - donor
-  - rights
-  - rightsHolder
-  - accessRights
-  - note
-  - relation
-  - isShownAt
-  - source
-carpenters:
-  - title
-  - date
-  - aSpaceUri
-  - identifier
-  - isPartOf
-  - note
+- dc_identifier_uri
+- dc_identifier_hdl
+- dc_identifier_acoua
+- epfl_thesis_number
+- dc_identifier_isi
+- dc_identifier_scopus
+- dc_identifier_pmid
+- dc_identifier_epo
+- cris_virtual_sciperId
+- cris_virtualsource_orcid
+- cris_virtual_author-scopus
+- cris_virtual_rid
+- dc_date_created
+- dc_date_accessioned
+- dc_date_modified
+- dc_date_accepted
+- epfl_writtenAt
+- datacite_rights
+- epfl_publication_version
+- cris_virtual_parent-organization
+- dc_description_sponsorship
+- epfl_thesis_doctoralSchool
+- epfl_thesis_faculty
+- epfl_thesis_institute
+- epfl_thesis_originalUnit
+- epfl_thesis_section

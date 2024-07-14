@@ -1,0 +1,20 @@
+label: Advisor Institution
+label-fr: Institution
+name: oairecerif_advisor_affiliation
+schema: oairecerif
+dc-element: advisor
+dc-qualifier: affiliation
+definition: Description coming soon...
+obligation: recommended
+type: descriptive
+repeatable: 'false'
+legacy_marc: ''
+indexes:
+- configuration: researchoutputs
+  indexes:
+  - oairecerif.advisor.affiliation
+range:
+- label: ROR registry
+  uri: https://ror.org/
+  values:
+  - ''

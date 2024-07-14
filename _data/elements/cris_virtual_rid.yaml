@@ -1,0 +1,20 @@
+label: ResearcherID
+label-fr: ResearcherID
+name: cris_virtual_rid
+schema: cris
+dc-element: virtual
+dc-qualifier: rid
+definition: Description coming soon...
+obligation: virtualMetadata
+type: administrative
+repeatable: 'true'
+legacy_marc: ''
+indexes:
+- configuration: researchoutputs
+  indexes:
+  - cris.virtual.rid
+range:
+- label: ResearcherID identifier
+  uri: ''
+  values:
+  - ''

@@ -1,0 +1,20 @@
+label: Institute
+label-fr: Institut
+name: epfl_thesis_institute
+schema: epfl
+dc-element: thesis
+dc-qualifier: institute
+definition: Description coming soon...
+obligation: requiredWhenAvailable
+type: administrative
+repeatable: 'false'
+legacy_marc: 918__c
+indexes:
+- configuration: researchoutputs
+  indexes:
+  - epfl.thesis.institute
+range:
+- label: orgunit authority
+  uri: ''
+  values:
+  - ''

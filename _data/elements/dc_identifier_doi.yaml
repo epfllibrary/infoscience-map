@@ -1,0 +1,22 @@
+label: DOI
+label-fr: DOI
+name: dc_identifier_doi
+schema: dc
+dc-element: identifier
+dc-qualifier: doi
+definition: Description coming soon...
+obligation: requiredWhenAvailable
+type: descriptive
+repeatable: 'true'
+legacy_marc: 0247_a (if 0247_2 == doi)
+indexes:
+- configuration: researchoutputs
+  indexes:
+  - itemidentifier
+  - doi
+  - dc.identifier.doi
+range:
+- label: DOI identifier
+  uri: ''
+  values:
+  - ''

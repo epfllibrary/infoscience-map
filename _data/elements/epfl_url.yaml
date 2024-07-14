@@ -1,0 +1,20 @@
+label: Supplementary link
+label-fr: Lien supplémentaire
+name: epfl_url
+schema: epfl
+dc-element: url
+dc-qualifier: ''
+definition: Description coming soon...
+obligation: optional
+type: descriptive
+repeatable: 'true'
+legacy_marc: 85641u
+indexes:
+- configuration: researchoutputs
+  indexes:
+  - epfl.url
+range:
+- label: String
+  uri: ''
+  values:
+  - ''

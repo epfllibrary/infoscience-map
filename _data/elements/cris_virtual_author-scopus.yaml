@@ -1,0 +1,20 @@
+label: Scopus Author ID
+label-fr: Scopus Author ID
+name: cris_virtual_author-scopus
+schema: cris
+dc-element: virtual
+dc-qualifier: author-scopus
+definition: Description coming soon...
+obligation: virtualMetadata
+type: administrative
+repeatable: 'true'
+legacy_marc: ''
+indexes:
+- configuration: researchoutputs
+  indexes:
+  - cris.virtual.author-scopus
+range:
+- label: Scopus Author Identifier
+  uri: ''
+  values:
+  - ''

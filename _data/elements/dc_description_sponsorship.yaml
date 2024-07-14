@@ -1,0 +1,23 @@
+label: Involved EPFL unit(s)
+label-fr: Unités impliquées
+name: dc_description_sponsorship
+schema: dc
+dc-element: description
+dc-qualifier: sponsorship
+definition: Description coming soon...
+obligation: required
+type: administrative
+repeatable: 'true'
+legacy_marc: 909C0p
+indexes:
+- configuration: researchoutputs
+  indexes:
+  - unitOrLab
+  - organization
+  - organizationHierarchy
+  - dc.description.sponsorship
+range:
+- label: orgunit authority
+  uri: ''
+  values:
+  - ''

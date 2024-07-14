@@ -1,0 +1,20 @@
+label: DOI (of the book)
+label-fr: DOI (de l'ouvrage)
+name: dc_relation_doi
+schema: dc
+dc-element: relation
+dc-qualifier: doi
+definition: Description coming soon...
+obligation: requiredWhenAvailable
+type: descriptive
+repeatable: 'false'
+legacy_marc: ''
+indexes:
+- configuration: researchoutputs
+  indexes:
+  - dc.relation.doi
+range:
+- label: DOI identifier
+  uri: ''
+  values:
+  - ''

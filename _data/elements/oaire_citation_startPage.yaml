@@ -1,0 +1,20 @@
+label: Start page
+label-fr: Page de début
+name: oaire_citation_startPage
+schema: oaire
+dc-element: citation
+dc-qualifier: startPage
+definition: Description coming soon...
+obligation: recommended
+type: descriptive
+repeatable: 'false'
+legacy_marc: 773__q
+indexes:
+- configuration: researchoutputs
+  indexes:
+  - oaire.citation.startPage
+range:
+- label: String
+  uri: ''
+  values:
+  - ''

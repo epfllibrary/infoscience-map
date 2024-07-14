@@ -1,0 +1,20 @@
+label: Patent Application Date
+label-fr: Date (demande)
+name: dcterms_dateSubmitted
+schema: dcterms
+dc-element: dateSubmitted
+dc-qualifier: ''
+definition: Description coming soon...
+obligation: optional
+type: descriptive
+repeatable: 'true'
+legacy_marc: ''
+indexes:
+- configuration: researchoutputs
+  indexes:
+  - dcterms.dateSubmitted
+range:
+- label: Date
+  uri: ''
+  values:
+  - ''

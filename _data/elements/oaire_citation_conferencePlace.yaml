@@ -1,0 +1,20 @@
+label: Event place
+label-fr: Lieu de l'événement
+name: oaire_citation_conferencePlace
+schema: oaire
+dc-element: citation
+dc-qualifier: conferencePlace
+definition: Description coming soon...
+obligation: recommended
+type: descriptive
+repeatable: 'false'
+legacy_marc: 7112_c
+indexes:
+- configuration: researchoutputs
+  indexes:
+  - oaire.citation.conferencePlace
+range:
+- label: String
+  uri: ''
+  values:
+  - ''

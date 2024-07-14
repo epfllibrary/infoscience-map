@@ -1,0 +1,20 @@
+label: Patent number
+label-fr: Numéro du brevet
+name: dc_identifier_patentno
+schema: dc
+dc-element: identifier
+dc-qualifier: patentno
+definition: Description coming soon...
+obligation: optional
+type: descriptive
+repeatable: 'true'
+legacy_marc: 013__a
+indexes:
+- configuration: researchoutputs
+  indexes:
+  - dc.identifier.patentno
+range:
+- label: String
+  uri: ''
+  values:
+  - ''

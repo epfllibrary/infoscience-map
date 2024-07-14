@@ -1,0 +1,20 @@
+label: Author Institution
+label-fr: Institution
+name: oairecerif_author_affiliation
+schema: oairecerif
+dc-element: author
+dc-qualifier: affiliation
+definition: Description coming soon...
+obligation: recommended
+type: descriptive
+repeatable: 'false'
+legacy_marc: ''
+indexes:
+- configuration: researchoutputs
+  indexes:
+  - oairecerif.author.affiliation
+range:
+- label: ROR registry
+  uri: https://ror.org/
+  values:
+  - ''

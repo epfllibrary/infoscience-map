@@ -1,0 +1,21 @@
+label: Created date
+label-fr: Date de création
+name: dc_date_created
+schema: dc
+dc-element: date
+dc-qualifier: created
+definition: Description coming soon...
+obligation: automatic
+type: administrative
+repeatable: 'false'
+legacy_marc: 039_9y
+indexes:
+- configuration: researchoutputs
+  indexes:
+  - dateCreated
+  - dc.date.created
+range:
+- label: Date
+  uri: ''
+  values:
+  - ''

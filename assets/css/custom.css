@@ -10,54 +10,51 @@ body {
   /* Margin bottom by footer height */
   margin-bottom: 80px;
 }
-.footer {
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-  /* Set the fixed height of the footer here */
-  height: 80px;
-  background-color: #f5f5f5;
-}
-.footerBox {
-  padding-top: 15px;
-  padding-bottom: 15px;
-}
+
 
 /**
  * Navbar
  */
 .navbar-default {
-  background-color: #c8102e;
-  border-color: #CC102F;
+  background-color: #ff0000;
+  border-color: #ff0000;
 }
 .navbar-default .navbar-brand {
-  color: #f0e6b1;
+  color: #ffffff;
 }
 .navbar-default .navbar-brand:hover,
 .navbar-default .navbar-brand:focus {
-  color: #ebdd93;
+  color: #ffffff;
   background-color: transparent;
 }
 .navbar-default .navbar-nav > li > a {
-  color: #fff;
+  color: #ffffff;
 }
 .navbar-default .navbar-nav > li > a:hover,
 .navbar-default .navbar-nav > li > a:focus {
-  color: #f2f2f2;
+  color: #ffffff;
   background-color: transparent;
 }
 
 /**
  * Footer
  */
+
 .footer {
-  background-color: #c8102e;
-  border-color: #CC102F;
-}
-.footer .footerBox > p > a {
-  color: #777;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 80px;
+  background-color: #E6E6E6;
+  border-color: #E6E6E6;
 }
 
+.footerBox {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  color: #212121;
+}
 /**
  * Tables
  */

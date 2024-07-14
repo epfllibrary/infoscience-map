@@ -1,0 +1,20 @@
+label: ISSN
+label-fr: ISSN
+name: dc_relation_issn
+schema: dc
+dc-element: relation
+dc-qualifier: issn
+definition: Description coming soon...
+obligation: requiredWhenAvailable
+type: descriptive
+repeatable: 'true'
+legacy_marc: 022__a
+indexes:
+- configuration: researchoutputs
+  indexes:
+  - dc.relation.issn
+range:
+- label: ISSN
+  uri: ''
+  values:
+  - ''

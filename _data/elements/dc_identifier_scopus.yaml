@@ -1,0 +1,21 @@
+label: SCOPUS ID
+label-fr: SCOPUS ID
+name: dc_identifier_scopus
+schema: dc
+dc-element: identifier
+dc-qualifier: scopus
+definition: Description coming soon...
+obligation: optional
+type: administrative
+repeatable: 'true'
+legacy_marc: 02470a (if 024702 == scopus)
+indexes:
+- configuration: researchoutputs
+  indexes:
+  - itemidentifier
+  - dc.identifier.scopus
+range:
+- label: Scopus Record identifier
+  uri: ''
+  values:
+  - ''

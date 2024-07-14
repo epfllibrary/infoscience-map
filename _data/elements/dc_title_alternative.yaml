@@ -1,0 +1,20 @@
+label: Additional titles
+label-fr: Autres titres
+name: dc_title_alternative
+schema: dc
+dc-element: title
+dc-qualifier: alternative
+definition: Description coming soon...
+obligation: optional
+type: descriptive
+repeatable: 'true'
+legacy_marc: ''
+indexes:
+- configuration: researchoutputs
+  indexes:
+  - dc.title.alternative
+range:
+- label: String
+  uri: ''
+  values:
+  - ''

@@ -1,0 +1,20 @@
+label: Priority number
+label-fr: Priorités
+name: dc_identifier_prioritynumber
+schema: dc
+dc-element: identifier
+dc-qualifier: prioritynumber
+definition: Description coming soon...
+obligation: optional
+type: descriptive
+repeatable: 'true'
+legacy_marc: ''
+indexes:
+- configuration: researchoutputs
+  indexes:
+  - dc.identifier.prioritynumber
+range:
+- label: String
+  uri: ''
+  values:
+  - ''

@@ -1,0 +1,20 @@
+label: TTO classification
+label-fr: Classification TTO
+name: epfl_tto
+schema: epfl
+dc-element: tto
+dc-qualifier: ''
+definition: Description coming soon...
+obligation: optional
+type: descriptive
+repeatable: 'true'
+legacy_marc: 6531_a (value contains TTO)
+indexes:
+- configuration: researchoutputs
+  indexes:
+  - epfl.tto
+range:
+- label: String
+  uri: ''
+  values:
+  - ''

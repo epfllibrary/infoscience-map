@@ -1,0 +1,21 @@
+label: Publisher or Institution name
+label-fr: Institution
+name: dc_publisher
+schema: dc
+dc-element: publisher
+dc-qualifier: ''
+definition: Description coming soon...
+obligation: optional
+type: descriptive
+repeatable: 'false'
+legacy_marc: 260__b
+indexes:
+- configuration: researchoutputs
+  indexes:
+  - publisher
+  - dc.publisher
+range:
+- label: String
+  uri: ''
+  values:
+  - ''

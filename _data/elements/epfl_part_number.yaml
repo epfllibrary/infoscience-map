@@ -1,0 +1,20 @@
+label: Part number
+label-fr: Numéro de la partie
+name: epfl_part_number
+schema: epfl
+dc-element: part
+dc-qualifier: number
+definition: Description coming soon...
+obligation: optional
+type: descriptive
+repeatable: 'false'
+legacy_marc: 773__f
+indexes:
+- configuration: researchoutputs
+  indexes:
+  - epfl.part.number
+range:
+- label: String
+  uri: ''
+  values:
+  - ''

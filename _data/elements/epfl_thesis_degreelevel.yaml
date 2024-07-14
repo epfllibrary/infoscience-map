@@ -1,0 +1,20 @@
+label: Degree level
+label-fr: Niveau de diplôme
+name: epfl_thesis_degreelevel
+schema: epfl
+dc-element: thesis
+dc-qualifier: degreelevel
+definition: Description coming soon...
+obligation: legacy
+type: legacy
+repeatable: 'false'
+legacy_marc: 980__b
+indexes:
+- configuration: researchoutputs
+  indexes:
+  - epfl.thesis.degreelevel
+range:
+- label: ''
+  uri: ''
+  values:
+  - ''

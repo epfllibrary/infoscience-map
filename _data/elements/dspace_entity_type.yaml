@@ -1,0 +1,23 @@
+label: Entity Type
+label-fr: Type d'entité
+name: dspace_entity_type
+schema: dspace
+dc-element: entity
+dc-qualifier: type
+definition: Description coming soon...
+obligation: automatic
+type: descriptive
+repeatable: 'false'
+legacy_marc: ''
+indexes:
+- configuration: researchoutputs
+  indexes:
+  - entityType
+  - dspace.entity.type
+range:
+- label: List of entities
+  uri: ''
+  values:
+  - Publication
+  - Product
+  - Dataset or other product

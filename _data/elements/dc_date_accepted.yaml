@@ -1,0 +1,20 @@
+label: Accepted date
+label-fr: Date acceptée
+name: dc_date_accepted
+schema: dc
+dc-element: date
+dc-qualifier: accepted
+definition: Description coming soon...
+obligation: optional
+type: administrative
+repeatable: 'false'
+legacy_marc: 920__b
+indexes:
+- configuration: researchoutputs
+  indexes:
+  - dc.date.accepted
+range:
+- label: Date
+  uri: ''
+  values:
+  - ''

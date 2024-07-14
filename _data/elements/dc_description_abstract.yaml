@@ -1,0 +1,21 @@
+label: Abstract
+label-fr: Résumé
+name: dc_description_abstract
+schema: dc
+dc-element: description
+dc-qualifier: abstract
+definition: Description coming soon...
+obligation: recommended
+type: descriptive
+repeatable: 'true'
+legacy_marc: 520__a
+indexes:
+- configuration: researchoutputs
+  indexes:
+  - abstract
+  - dc.description.abstract
+range:
+- label: String
+  uri: ''
+  values:
+  - ''

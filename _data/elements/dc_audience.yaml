@@ -1,0 +1,23 @@
+label: Target audience
+label-fr: Public cible
+name: dc_audience
+schema: dc
+dc-element: audience
+dc-qualifier: ''
+definition: Description coming soon...
+obligation: optional
+type: descriptive
+repeatable: 'true'
+legacy_marc: 954__a
+indexes:
+- configuration: researchoutputs
+  indexes:
+  - dc.audience
+range:
+- label: List
+  uri: ''
+  values:
+  - Bachelor
+  - Master
+  - PhD school
+  - General audience

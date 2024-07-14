@@ -1,0 +1,20 @@
+label: Related Event(s) (conference, workshop, course, etc)
+label-fr: Événement associé (conférence, atelier, cours, etc.)
+name: dc_relation_conference
+schema: dc
+dc-element: relation
+dc-qualifier: conference
+definition: Description coming soon...
+obligation: recommended
+type: descriptive
+repeatable: 'true'
+legacy_marc: 7112_a
+indexes:
+- configuration: researchoutputs
+  indexes:
+  - dc.relation.conference
+range:
+- label: String or Event authority
+  uri: ''
+  values:
+  - ''

@@ -1,0 +1,20 @@
+label: Version
+label-fr: ''
+name: epfl_publication_version
+schema: epfl
+dc-element: publication
+dc-qualifier: version
+definition: Description coming soon...
+obligation: required
+type: administrative
+repeatable: 'false'
+legacy_marc: 973__s
+indexes:
+- configuration: researchoutputs
+  indexes:
+  - epfl.publication.version
+range:
+- label: COAR version types vocabulary
+  uri: https://vocabularies.coar-repositories.org/version_types/
+  values:
+  - ''

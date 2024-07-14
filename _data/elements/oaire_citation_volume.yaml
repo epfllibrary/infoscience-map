@@ -1,0 +1,20 @@
+label: Volume
+label-fr: Volume de la revue
+name: oaire_citation_volume
+schema: oaire
+dc-element: citation
+dc-qualifier: volume
+definition: Description coming soon...
+obligation: recommended
+type: descriptive
+repeatable: 'false'
+legacy_marc: 773__j
+indexes:
+- configuration: researchoutputs
+  indexes:
+  - oaire.citation.volume
+range:
+- label: String
+  uri: ''
+  values:
+  - ''

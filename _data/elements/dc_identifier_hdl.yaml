@@ -1,0 +1,21 @@
+label: Handle
+label-fr: Handle
+name: dc_identifier_hdl
+schema: dc
+dc-element: identifier
+dc-qualifier: hdl
+definition: Description coming soon...
+obligation: automatic
+type: administrative
+repeatable: 'false'
+legacy_marc: ''
+indexes:
+- configuration: researchoutputs
+  indexes:
+  - itemidentifier
+  - dc.identifier.hdl
+range:
+- label: Handle identifier (prefix 20.500.14299/{id})
+  uri: ''
+  values:
+  - ''

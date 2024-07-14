@@ -1,0 +1,27 @@
+label: Language
+label-fr: Langue
+name: dc_language_iso
+schema: dc
+dc-element: language
+dc-qualifier: iso
+definition: Description coming soon...
+obligation: recommended
+type: descriptive
+repeatable: 'true'
+legacy_marc: 041__a
+indexes:
+- configuration: researchoutputs
+  indexes:
+  - language
+  - dc.language.iso
+range:
+- label: ISO code list (common_iso_languages)
+  uri: ''
+  values:
+  - en
+  - fr
+  - de
+  - it
+  - ja
+  - zh
+  - other

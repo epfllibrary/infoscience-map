@@ -1,0 +1,24 @@
+label: File version
+label-fr: Version du fichier
+name: oaire_version
+schema: oaire
+dc-element: version
+dc-qualifier: ''
+definition: Description coming soon...
+obligation: Required
+type: descriptive
+repeatable: 'false'
+legacy_marc: 8564_0, 8564_z
+indexes:
+- configuration: researchoutputs
+  indexes:
+  - oaire.version
+range:
+- label: List (coar_versions)
+  uri: https://vocabularies.coar-repositories.org/version_types/
+  values:
+  - Submitted version (Preprint)
+  - Accepted version
+  - Published version
+  - Corrected Version
+  - Not Applicable (or Unknown)

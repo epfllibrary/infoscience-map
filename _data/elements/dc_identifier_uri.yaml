@@ -1,0 +1,20 @@
+label: URI
+label-fr: URI
+name: dc_identifier_uri
+schema: dc
+dc-element: identifier
+dc-qualifier: uri
+definition: Description coming soon...
+obligation: automatic
+type: administrative
+repeatable: 'false'
+legacy_marc: ''
+indexes:
+- configuration: researchoutputs
+  indexes:
+  - dc.identifier.uri
+range:
+- label: URI
+  uri: ''
+  values:
+  - ''

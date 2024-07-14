@@ -1,0 +1,20 @@
+label: Contributor EPFL unit
+label-fr: Unité ou Laboratoire
+name: oairecerif_affiliation_orgunit
+schema: oairecerif
+dc-element: affiliation
+dc-qualifier: orgunit
+definition: Description coming soon...
+obligation: recommended
+type: descriptive
+repeatable: 'false'
+legacy_marc: ''
+indexes:
+- configuration: researchoutputs
+  indexes:
+  - oairecerif.affiliation.orgunit
+range:
+- label: orgunit authority
+  uri: ''
+  values:
+  - ''

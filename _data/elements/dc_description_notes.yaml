@@ -1,0 +1,20 @@
+label: Notes
+label-fr: Notes
+name: dc_description_notes
+schema: dc
+dc-element: description
+dc-qualifier: notes
+definition: Description coming soon...
+obligation: optional
+type: descriptive
+repeatable: 'true'
+legacy_marc: 500__a
+indexes:
+- configuration: researchoutputs
+  indexes:
+  - dc.description.notes
+range:
+- label: String
+  uri: ''
+  values:
+  - ''

@@ -1,0 +1,20 @@
+label: Main content size, duration or Page count
+label-fr: Taille, durée du contenu principal
+name: dc_size
+schema: dc
+dc-element: size
+dc-qualifier: ''
+definition: Description coming soon...
+obligation: optional
+type: descriptive
+repeatable: 'false'
+legacy_marc: 300__a
+indexes:
+- configuration: researchoutputs
+  indexes:
+  - dc.size
+range:
+- label: String
+  uri: ''
+  values:
+  - ''

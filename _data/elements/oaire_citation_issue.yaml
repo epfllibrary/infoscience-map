@@ -1,0 +1,20 @@
+label: Issue
+label-fr: Numéro de la revue
+name: oaire_citation_issue
+schema: oaire
+dc-element: citation
+dc-qualifier: issue
+definition: Description coming soon...
+obligation: recommended
+type: descriptive
+repeatable: 'false'
+legacy_marc: 773__k
+indexes:
+- configuration: researchoutputs
+  indexes:
+  - oaire.citation.issue
+range:
+- label: String
+  uri: ''
+  values:
+  - ''

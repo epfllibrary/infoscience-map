@@ -1,0 +1,20 @@
+label: Corporate author name
+label-fr: Auteur correspondant
+name: epfl_contributor_role
+schema: epfl
+dc-element: contributor
+dc-qualifier: role
+definition: Description coming soon...
+obligation: optional
+type: descriptive
+repeatable: 'false'
+legacy_marc: ''
+indexes:
+- configuration: researchoutputs
+  indexes:
+  - epfl.contributor.role
+range:
+- label: true/false
+  uri: ''
+  values:
+  - ''

@@ -1,0 +1,20 @@
+label: Format
+label-fr: Format
+name: dc_format_extent
+schema: dc
+dc-element: format
+dc-qualifier: extent
+definition: Description coming soon...
+obligation: optional
+type: descriptive
+repeatable: 'false'
+legacy_marc: 300__c
+indexes:
+- configuration: researchoutputs
+  indexes:
+  - dc.format.extent
+range:
+- label: String
+  uri: ''
+  values:
+  - ''

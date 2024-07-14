@@ -1,0 +1,21 @@
+label: Title
+label-fr: Titre
+name: dc_title
+schema: dc
+dc-element: title
+dc-qualifier: ''
+definition: Description coming soon...
+obligation: required
+type: descriptive
+repeatable: 'false'
+legacy_marc: 245__a
+indexes:
+- configuration: researchoutputs
+  indexes:
+  - title
+  - dc.title
+range:
+- label: String
+  uri: ''
+  values:
+  - ''

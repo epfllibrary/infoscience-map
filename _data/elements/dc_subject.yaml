@@ -1,0 +1,21 @@
+label: Subject(s)
+label-fr: Sujet(s)
+name: dc_subject
+schema: dc
+dc-element: subject
+dc-qualifier: ''
+definition: Description coming soon...
+obligation: recommended
+type: descriptive
+repeatable: 'true'
+legacy_marc: 650__a,6531_a
+indexes:
+- configuration: researchoutputs
+  indexes:
+  - subject
+  - dc.subject
+range:
+- label: String
+  uri: ''
+  values:
+  - ''

@@ -1,0 +1,20 @@
+label: Legacy item type
+label-fr: Type hérité
+name: epfl_legacy_itemtype
+schema: epfl
+dc-element: legacy
+dc-qualifier: itemtype
+definition: Description coming soon...
+obligation: legacy
+type: legacy
+repeatable: 'false'
+legacy_marc: 336__a
+indexes:
+- configuration: researchoutputs
+  indexes:
+  - epfl.legacy.itemtype
+range:
+- label: legacy_itemtypes
+  uri: ''
+  values:
+  - ''

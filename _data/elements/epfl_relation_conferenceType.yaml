@@ -1,0 +1,25 @@
+label: Event type
+label-fr: Type d'événement
+name: epfl_relation_conferenceType
+schema: epfl
+dc-element: relation
+dc-qualifier: conferenceType
+definition: Description coming soon...
+obligation: optional
+type: descriptive
+repeatable: 'false'
+legacy_marc: ''
+indexes:
+- configuration: researchoutputs
+  indexes:
+  - epfl.relation.conferenceType
+range:
+- label: List (event_types)
+  uri: ''
+  values:
+  - conference
+  - workshop
+  - seminar
+  - exhibition
+  - course
+  - other

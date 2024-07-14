@@ -1,0 +1,20 @@
+label: Jury
+label-fr: Jury
+name: epfl_thesis_jury
+schema: epfl
+dc-element: thesis
+dc-qualifier: jury
+definition: Description coming soon...
+obligation: optional
+type: descriptive
+repeatable: 'false'
+legacy_marc: 502__a
+indexes:
+- configuration: researchoutputs
+  indexes:
+  - epfl.thesis.jury
+range:
+- label: String
+  uri: ''
+  values:
+  - ''

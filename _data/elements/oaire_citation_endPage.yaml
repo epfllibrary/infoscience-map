@@ -1,0 +1,20 @@
+label: End page
+label-fr: Page de fin
+name: oaire_citation_endPage
+schema: oaire
+dc-element: citation
+dc-qualifier: endPage
+definition: Description coming soon...
+obligation: recommended
+type: descriptive
+repeatable: 'false'
+legacy_marc: 773__q
+indexes:
+- configuration: researchoutputs
+  indexes:
+  - oaire.citation.endPage
+range:
+- label: String
+  uri: ''
+  values:
+  - ''

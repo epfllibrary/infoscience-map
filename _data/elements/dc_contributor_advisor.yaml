@@ -1,0 +1,21 @@
+label: Advisor(s)
+label-fr: Directeur(s)
+name: dc_contributor_advisor
+schema: dc
+dc-element: contributor
+dc-qualifier: advisor
+definition: Description coming soon...
+obligation: requiredWhenAvailable
+type: descriptive
+repeatable: 'true'
+legacy_marc: 720_2a
+indexes:
+- configuration: researchoutputs
+  indexes:
+  - author_editor
+  - dc.contributor.advisor
+range:
+- label: String or advisor authority
+  uri: ''
+  values:
+  - ''

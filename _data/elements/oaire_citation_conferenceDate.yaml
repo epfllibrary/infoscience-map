@@ -1,0 +1,20 @@
+label: Event date
+label-fr: Date de début
+name: oaire_citation_conferenceDate
+schema: oaire
+dc-element: citation
+dc-qualifier: conferenceDate
+definition: Description coming soon...
+obligation: recommended
+type: descriptive
+repeatable: 'false'
+legacy_marc: 7112_d
+indexes:
+- configuration: researchoutputs
+  indexes:
+  - oaire.citation.conferenceDate
+range:
+- label: String
+  uri: ''
+  values:
+  - ''

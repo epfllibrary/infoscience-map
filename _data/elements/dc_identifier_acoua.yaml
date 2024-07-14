@@ -1,0 +1,21 @@
+label: ACOUA preservation ID
+label-fr: ACOUA preservation ID
+name: dc_identifier_acoua
+schema: dc
+dc-element: identifier
+dc-qualifier: acoua
+definition: Description coming soon...
+obligation: requiredWhenAvailable
+type: administrative
+repeatable: 'true'
+legacy_marc: 02470a (if 024702 == acoua)
+indexes:
+- configuration: researchoutputs
+  indexes:
+  - itemidentifier
+  - dc.identifier.acoua
+range:
+- label: Acoua preservation identifier
+  uri: ''
+  values:
+  - ''

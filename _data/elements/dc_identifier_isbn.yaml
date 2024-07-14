@@ -1,0 +1,21 @@
+label: ISBN
+label-fr: ISBN
+name: dc_identifier_isbn
+schema: dc
+dc-element: identifier
+dc-qualifier: isbn
+definition: Description coming soon...
+obligation: requiredWhenAvailable
+type: descriptive
+repeatable: 'true'
+legacy_marc: 020__a
+indexes:
+- configuration: researchoutputs
+  indexes:
+  - itemidentifier
+  - dc.identifier.isbn
+range:
+- label: ISBN
+  uri: ''
+  values:
+  - ''

@@ -1,0 +1,20 @@
+label: Faculty
+label-fr: Faculté
+name: epfl_thesis_faculty
+schema: epfl
+dc-element: thesis
+dc-qualifier: faculty
+definition: Description coming soon...
+obligation: requiredWhenAvailable
+type: administrative
+repeatable: 'false'
+legacy_marc: 918__a
+indexes:
+- configuration: researchoutputs
+  indexes:
+  - epfl.thesis.faculty
+range:
+- label: orgunit authority
+  uri: ''
+  values:
+  - ''

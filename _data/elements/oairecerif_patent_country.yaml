@@ -1,0 +1,20 @@
+label: Country code
+label-fr: Code région
+name: oairecerif_patent_country
+schema: oairecerif
+dc-element: patent
+dc-qualifier: country
+definition: Description coming soon...
+obligation: recommended
+type: descriptive
+repeatable: 'true'
+legacy_marc: 013__b
+indexes:
+- configuration: researchoutputs
+  indexes:
+  - oairecerif.patent.country
+range:
+- label: String
+  uri: ''
+  values:
+  - ''

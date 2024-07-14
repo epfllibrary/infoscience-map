@@ -1,0 +1,23 @@
+label: Access rights
+label-fr: Conditions d'accès
+name: datacite_rights
+schema: datacite
+dc-element: rights
+dc-qualifier: ''
+definition: Description coming soon...
+obligation: automatic
+type: administrative
+repeatable: 'false'
+legacy_marc: 542__a
+indexes:
+- configuration: researchoutputs
+  indexes:
+  - datacite_rights
+  - datacite.rights
+range:
+- label: List
+  uri: https://vocabularies.coar-repositories.org/access_rights/
+  values:
+  - metadata-only
+  - openaccess
+  - restricted

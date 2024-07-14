@@ -1,0 +1,20 @@
+label: Grant URL
+label-fr: URL du grant
+name: crisfund_award_uri
+schema: crisfund
+dc-element: award
+dc-qualifier: uri
+definition: Description coming soon...
+obligation: optional
+type: descriptive
+repeatable: 'false'
+legacy_marc: ''
+indexes:
+- configuration: researchoutputs
+  indexes:
+  - crisfund.award.uri
+range:
+- label: URI
+  uri: ''
+  values:
+  - ''

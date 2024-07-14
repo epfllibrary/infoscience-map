@@ -1,0 +1,20 @@
+label: Kind code
+label-fr: Code de type
+name: epfl_patent_kindcode
+schema: epfl
+dc-element: patent
+dc-qualifier: kindcode
+definition: Description coming soon...
+obligation: recommended
+type: descriptive
+repeatable: 'true'
+legacy_marc: 013__c
+indexes:
+- configuration: researchoutputs
+  indexes:
+  - epfl.patent.kindcode
+range:
+- label: String
+  uri: ''
+  values:
+  - ''

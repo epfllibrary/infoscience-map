@@ -1,0 +1,21 @@
+label: WOS ID
+label-fr: WOS ID
+name: dc_identifier_isi
+schema: dc
+dc-element: identifier
+dc-qualifier: isi
+definition: Description coming soon...
+obligation: optional
+type: administrative
+repeatable: 'true'
+legacy_marc: 02470a (if 024702 == isi)
+indexes:
+- configuration: researchoutputs
+  indexes:
+  - itemidentifier
+  - dc.identifier.isi
+range:
+- label: Web of Science Record identifier
+  uri: ''
+  values:
+  - ''

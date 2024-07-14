@@ -1,0 +1,20 @@
+label: Award(s)
+label-fr: Prix
+name: epfl_award
+schema: epfl
+dc-element: award
+dc-qualifier: ''
+definition: Description coming soon...
+obligation: optional
+type: descriptive
+repeatable: 'true'
+legacy_marc: 586__a
+indexes:
+- configuration: researchoutputs
+  indexes:
+  - epfl.award
+range:
+- label: String
+  uri: ''
+  values:
+  - ''

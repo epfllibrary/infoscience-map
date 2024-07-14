@@ -1,0 +1,21 @@
+label: Modified date
+label-fr: Date de modification
+name: dc_date_modified
+schema: dc
+dc-element: date
+dc-qualifier: modified
+definition: Description coming soon...
+obligation: automatic
+type: administrative
+repeatable: 'false'
+legacy_marc: 005 or 039_9a
+indexes:
+- configuration: researchoutputs
+  indexes:
+  - lastModified
+  - dc.date.modified
+range:
+- label: Date
+  uri: ''
+  values:
+  - ''

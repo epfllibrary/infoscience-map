@@ -1,0 +1,20 @@
+label: Version
+label-fr: Version
+name: dc_description_version
+schema: dc
+dc-element: description
+dc-qualifier: version
+definition: Description coming soon...
+obligation: optional
+type: descriptive
+repeatable: 'false'
+legacy_marc: 251__a
+indexes:
+- configuration: researchoutputs
+  indexes:
+  - dc.description.version
+range:
+- label: String
+  uri: ''
+  values:
+  - ''

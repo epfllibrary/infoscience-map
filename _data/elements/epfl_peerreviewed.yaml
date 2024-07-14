@@ -1,0 +1,21 @@
+label: Peer reviewed status
+label-fr: Évalué par les pairs
+name: epfl_peerreviewed
+schema: epfl
+dc-element: peerreviewed
+dc-qualifier: ''
+definition: Description coming soon...
+obligation: required
+type: descriptive
+repeatable: 'false'
+legacy_marc: 973__r
+indexes:
+- configuration: researchoutputs
+  indexes:
+  - epfl.peerreviewed
+range:
+- label: List (peerreviewed)
+  uri: ''
+  values:
+  - REVIEWED
+  - NON-REVIEWED

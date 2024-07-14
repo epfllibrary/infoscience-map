@@ -1,0 +1,21 @@
+label: Date issued or Publication date
+label-fr: Date de diffusion
+name: dc_date_issued
+schema: dc
+dc-element: date
+dc-qualifier: issued
+definition: Description coming soon...
+obligation: requiredWhenAvailable
+type: descriptive
+repeatable: 'false'
+legacy_marc: 260__c, 269__a
+indexes:
+- configuration: researchoutputs
+  indexes:
+  - dateIssued
+  - dc.date.issued
+range:
+- label: Date
+  uri: ''
+  values:
+  - ''

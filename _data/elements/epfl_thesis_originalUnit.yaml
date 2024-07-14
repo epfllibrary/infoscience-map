@@ -1,0 +1,20 @@
+label: Original OrgUnit
+label-fr: Unité hérité
+name: epfl_thesis_originalUnit
+schema: epfl
+dc-element: thesis
+dc-qualifier: originalUnit
+definition: Description coming soon...
+obligation: requiredWhenAvailable
+type: administrative
+repeatable: 'true'
+legacy_marc: 919__a
+indexes:
+- configuration: researchoutputs
+  indexes:
+  - epfl.thesis.originalUnit
+range:
+- label: orgunit authority
+  uri: ''
+  values:
+  - ''

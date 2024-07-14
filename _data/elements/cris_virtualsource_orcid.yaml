@@ -1,0 +1,20 @@
+label: ORCID Id (only for EPFL members with EPFL linked ORCID)
+label-fr: Identifiant ORCID ((only for EPFL members with EPFL linked ORCID)
+name: cris_virtualsource_orcid
+schema: cris
+dc-element: virtualsource
+dc-qualifier: orcid
+definition: Description coming soon...
+obligation: virtualMetadata
+type: administrative
+repeatable: 'true'
+legacy_marc: ''
+indexes:
+- configuration: researchoutputs
+  indexes:
+  - cris.virtualsource.orcid
+range:
+- label: ORCID identifier
+  uri: ''
+  values:
+  - ''

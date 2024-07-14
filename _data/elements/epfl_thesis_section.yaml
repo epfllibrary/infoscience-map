@@ -1,0 +1,20 @@
+label: Section
+label-fr: Section
+name: epfl_thesis_section
+schema: epfl
+dc-element: thesis
+dc-qualifier: section
+definition: Description coming soon...
+obligation: requiredWhenAvailable
+type: administrative
+repeatable: 'true'
+legacy_marc: 918__b
+indexes:
+- configuration: researchoutputs
+  indexes:
+  - epfl.thesis.section
+range:
+- label: orgunit authority
+  uri: ''
+  values:
+  - ''

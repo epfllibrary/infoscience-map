@@ -1,0 +1,20 @@
+label: Public defense year
+label-fr: Année de défense publique
+name: epfl_thesis_publicDefenseYear
+schema: epfl
+dc-element: thesis
+dc-qualifier: publicDefenseYear
+definition: Description coming soon...
+obligation: requiredWhenAvailable
+type: descriptive
+repeatable: 'false'
+legacy_marc: 920__a
+indexes:
+- configuration: researchoutputs
+  indexes:
+  - epfl.thesis.publicDefenseYear
+range:
+- label: Date (year)
+  uri: ''
+  values:
+  - ''

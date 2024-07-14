@@ -1,0 +1,20 @@
+label: Parent unit
+label-fr: Unité parente
+name: cris_virtual_parent-organization
+schema: cris
+dc-element: virtual
+dc-qualifier: parent-organization
+definition: Description coming soon...
+obligation: virtualMetadata
+type: administrative
+repeatable: 'true'
+legacy_marc: ''
+indexes:
+- configuration: researchoutputs
+  indexes:
+  - cris.virtual.parent-organization
+range:
+- label: orgunit authority
+  uri: ''
+  values:
+  - ''

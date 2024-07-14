@@ -1,0 +1,20 @@
+label: Book Title or Is part of or Source name
+label-fr: Publié dans (ouvrage, etc.)
+name: dc_relation_ispartof
+schema: dc
+dc-element: relation
+dc-qualifier: ispartof
+definition: Description coming soon...
+obligation: requiredWhenAvailable
+type: descriptive
+repeatable: 'false'
+legacy_marc: 773__t
+indexes:
+- configuration: researchoutputs
+  indexes:
+  - dc.relation.ispartof
+range:
+- label: String
+  uri: ''
+  values:
+  - ''

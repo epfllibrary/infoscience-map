@@ -1,0 +1,20 @@
+label: Legacy ID
+label-fr: Ancien identifiant
+name: cris_legacyId
+schema: cris
+dc-element: legacyId
+dc-qualifier: ''
+definition: Description coming soon...
+obligation: legacy
+type: legacy
+repeatable: 'false'
+legacy_marc: '001'
+indexes:
+- configuration: researchoutputs
+  indexes:
+  - cris.legacyId
+range:
+- label: integer
+  uri: ''
+  values:
+  - ''

@@ -1,0 +1,21 @@
+label: Funder
+label-fr: Financeur
+name: oairecerif_funder
+schema: oairecerif
+dc-element: funder
+dc-qualifier: ''
+definition: Description coming soon...
+obligation: recommended
+type: descriptive
+repeatable: 'true'
+legacy_marc: 536__a
+indexes:
+- configuration: researchoutputs
+  indexes:
+  - fundername
+  - oairecerif.funder
+range:
+- label: String or ROR registry
+  uri: https://ror.org/
+  values:
+  - ''

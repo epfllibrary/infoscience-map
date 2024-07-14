@@ -1,0 +1,20 @@
+label: Article number
+label-fr: Numéro d'article
+name: oaire_citation_articlenumber
+schema: oaire
+dc-element: citation
+dc-qualifier: articlenumber
+definition: Description coming soon...
+obligation: recommended
+type: descriptive
+repeatable: 'false'
+legacy_marc: 773__q
+indexes:
+- configuration: researchoutputs
+  indexes:
+  - oaire.citation.articlenumber
+range:
+- label: String
+  uri: ''
+  values:
+  - ''

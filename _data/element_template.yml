@@ -1,11 +1,19 @@
 label: ""
-namespace: ""
+label-fr: ""
 name: ""
+schema: ""
+dc-element: ""
+dc-qualifier: ""
 definition: ""
-source: ""
 obligation: ""
 type: ""
 repeatable: true/false
+legacy_marc: ""
+indexes: 
+  - configuration: ""
+    indexes:
+      - ""
+      - ""
 range:
   - label: ""
     uri: ""

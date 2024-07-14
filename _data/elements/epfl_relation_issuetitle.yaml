@@ -1,0 +1,20 @@
+label: Special issue title
+label-fr: Titre spécifique à ce numéro
+name: epfl_relation_issuetitle
+schema: epfl
+dc-element: relation
+dc-qualifier: issuetitle
+definition: Description coming soon...
+obligation: optional
+type: descriptive
+repeatable: 'false'
+legacy_marc: ''
+indexes:
+- configuration: researchoutputs
+  indexes:
+  - epfl.relation.issuetitle
+range:
+- label: String
+  uri: ''
+  values:
+  - ''

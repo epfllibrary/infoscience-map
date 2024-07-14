@@ -1,0 +1,20 @@
+label: Series title/Series vol.
+label-fr: Titre de la série/Numéro de la série
+name: dc_relation_ispartofseries
+schema: dc
+dc-element: relation
+dc-qualifier: ispartofseries
+definition: Description coming soon...
+obligation: optional
+type: descriptive
+repeatable: 'false'
+legacy_marc: 490__a
+indexes:
+- configuration: researchoutputs
+  indexes:
+  - dc.relation.ispartofseries
+range:
+- label: String
+  uri: ''
+  values:
+  - ''

@@ -16,28 +16,37 @@
 	<td>{{ element.label }}</td>
 </tr>
 <tr>
-	<td><b>Element</b></td>
-	<td>{{ element.namespace }}.{{ element.name }}</td>
+	<td><b>French label</b></td>
+	<td>{{ element.label-fr }}</td>
 </tr>
+{% if element.schema or element.dc-element or element.dc-qualifier %}
+<tr>
+	<td><b>Element</b></td>
+	<td>
+		{% if element.schema %}{{ element.schema != null and element.schema != "" }}{% endif %}{% if element.dc-element != null and element.dc-element != "" %}.{{ element.dc-element }}{% endif %}{% if element.dc-qualifier != null and element.dc-qualifier != "" %}.{{ element.dc-qualifier }}{% endif %}
+	</td>
+</tr>
+{% endif %}
 <tr>
 	<td><b>URI</b></td>
 	<td>
 		<a href="{{ site.url }}#{{ element.name }}">{{ site.url }}#{{ element.name }}</a>
 	</td>
 </tr>
-{% if element.source %}
+{% if element.legacy_marc %}
 <tr>
-	<td><b>Same As</b></td>
+	<td><b>Legacy MARC metadata</b></td>
 	<td>
-		<a href="{{ element.source }}">{{ element.source }}</a>
+		{{ element.legacy_marc }}
 	</td>
 </tr>
 {% endif %}
 <tr>
 	<td><b>Definition</b></td>
-	<td>{{ element.definition }}<br>
+	<td>{{ element.definition }}</td>
+	<!-- <td>{{ element.definition }}<br>
 		<a href="{{ site.url }}/guidelines/{{ element.name }}">Input Guidelines</a>
-	</td>
+	</td> -->
 </tr>
 <tr>
 	<td><b>Obligation</b></td>
@@ -47,20 +56,38 @@
 	<td><b>Range</b></td>
 	<td>
 	{% for r in element.range %}
-		{% if r.uri %}
+		{% if r.uri != null and r.uri != "" %}
 			<a href="{{ r.uri }}">{{ r.label }}</a>
 		{% else %}
 			{% if r.values %}
-				{{ r.label }}</br>
-				<ul>
-				{% for value in r.values %}
-					<li>{{ value }}</li>
-				{% endfor %}
-				</ul>
-			{% else %}
 				{{ r.label }}
 			{% endif %}
 		{% endif %}
+				<ul>
+				{% for value in r.values %}
+					{% if value != null and value != "" %}
+						<li>{{ value }}</li>
+					{% endif %}
+				{% endfor %}
+				</ul>
 	{% endfor %}
+	</td>
+</tr>
+<tr>
+	<td><b>Search indexes</b></td>
+	<td>
+		{% for r in element.indexes %}
+			{% if r.configuration != null and r.configuration != "" %}
+				<span><strong>Search configuration: </strong>{{ r.configuration }}</span><br/>
+			{% endif %}
+			<span><strong>Indexes:</strong></span>
+		<ul>
+			{% for value in r.indexes %}
+				{% if value != null and value != "" %}
+					<li>{{ value }}</li>
+				{% endif %}
+			{% endfor %}
+		</ul>
+		{% endfor %}
 	</td>
 </tr>

@@ -1,0 +1,20 @@
+label: Thesis number
+label-fr: Numéro administratif
+name: epfl_thesis_number
+schema: epfl
+dc-element: thesis
+dc-qualifier: number
+definition: Description coming soon...
+obligation: requiredWhenAvailable
+type: administrative
+repeatable: 'true'
+legacy_marc: 088__a
+indexes:
+- configuration: researchoutputs
+  indexes:
+  - epfl.thesis.number
+range:
+- label: EPFL thesis administrative number
+  uri: ''
+  values:
+  - ''

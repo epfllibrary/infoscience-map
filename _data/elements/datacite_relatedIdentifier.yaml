@@ -1,0 +1,20 @@
+label: Related work URI or DOI
+label-fr: Ressource liée
+name: datacite_relatedIdentifier
+schema: datacite
+dc-element: relatedIdentifier
+dc-qualifier: ''
+definition: Description coming soon...
+obligation: optional
+type: descriptive
+repeatable: 'true'
+legacy_marc: 787__w, 790__w
+indexes:
+- configuration: researchoutputs
+  indexes:
+  - datacite.relatedIdentifier
+range:
+- label: URI
+  uri: ''
+  values:
+  - ''

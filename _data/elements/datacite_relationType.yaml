@@ -1,0 +1,51 @@
+label: Relation type
+label-fr: Type de relation
+name: datacite_relationType
+schema: datacite
+dc-element: relationType
+dc-qualifier: ''
+definition: Description coming soon...
+obligation: optional
+type: descriptive
+repeatable: 'true'
+legacy_marc: 787__e, 790__2
+indexes:
+- configuration: researchoutputs
+  indexes:
+  - datacite.relationType
+range:
+- label: List (epfl_relation_type)
+  uri: ''
+  values:
+  - IsCitedBy
+  - Cites
+  - IsSupplementTo
+  - IsSupplementedBy
+  - IsContinuedBy
+  - Continues
+  - IsDescribedBy
+  - Describes
+  - HasMetadata
+  - IsMetadataFor
+  - HasVersion
+  - IsVersionOf
+  - IsNewVersionOf
+  - IsPreviousVersionOf
+  - IsPartOf
+  - HasPart
+  - IsReferencedBy
+  - References
+  - IsDocumentedBy
+  - Documents
+  - IsCompiledBy
+  - Compiles
+  - IsVariantFormOf
+  - IsOriginalFormOf
+  - IsIdenticalTo
+  - IsReviewedBy
+  - Reviews
+  - IsDerivedFrom
+  - IsSourceOf
+  - IsRequiredBy
+  - Requires
+  - IsPublishedIn

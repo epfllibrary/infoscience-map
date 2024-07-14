@@ -1,0 +1,20 @@
+label: Patent Date
+label-fr: Date du brevet
+name: epfl_patent_date
+schema: epfl
+dc-element: patent
+dc-qualifier: date
+definition: Description coming soon...
+obligation: requiredWhenAvailable
+type: descriptive
+repeatable: 'true'
+legacy_marc: 013__d
+indexes:
+- configuration: researchoutputs
+  indexes:
+  - epfl.patent.date
+range:
+- label: Date
+  uri: ''
+  values:
+  - ''

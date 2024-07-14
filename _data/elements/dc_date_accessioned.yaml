@@ -1,0 +1,20 @@
+label: Accessioned date
+label-fr: Date d'ajout
+name: dc_date_accessioned
+schema: dc
+dc-element: date
+dc-qualifier: accessioned
+definition: Description coming soon...
+obligation: automatic
+type: administrative
+repeatable: 'false'
+legacy_marc: ''
+indexes:
+- configuration: researchoutputs
+  indexes:
+  - dc.date.accessioned
+range:
+- label: Date
+  uri: ''
+  values:
+  - ''

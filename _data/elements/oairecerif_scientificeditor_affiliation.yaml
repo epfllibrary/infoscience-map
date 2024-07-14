@@ -1,0 +1,20 @@
+label: Scientifc Editor Institution
+label-fr: Institution
+name: oairecerif_scientificeditor_affiliation
+schema: oairecerif
+dc-element: scientificeditor
+dc-qualifier: affiliation
+definition: Description coming soon...
+obligation: recommended
+type: descriptive
+repeatable: 'false'
+legacy_marc: ''
+indexes:
+- configuration: researchoutputs
+  indexes:
+  - oairecerif.scientificeditor.affiliation
+range:
+- label: ROR registry
+  uri: https://ror.org/
+  values:
+  - ''

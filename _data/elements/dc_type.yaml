@@ -1,0 +1,22 @@
+label: Resource type
+label-fr: Type
+name: dc_type
+schema: dc
+dc-element: type
+dc-qualifier: ''
+definition: Description coming soon...
+obligation: required
+type: descriptive
+repeatable: 'false'
+legacy_marc: 336__a
+indexes:
+- configuration: researchoutputs
+  indexes:
+  - types
+  - itemtype
+  - dc.type
+range:
+- label: COAR Resources types vocabulary
+  uri: https://vocabularies.coar-repositories.org/resource_types/
+  values:
+  - ''

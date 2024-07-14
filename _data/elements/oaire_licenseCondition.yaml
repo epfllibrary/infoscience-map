@@ -1,0 +1,37 @@
+label: File License
+label-fr: Licence
+name: oaire_licenseCondition
+schema: oaire
+dc-element: licenseCondition (file level)
+dc-qualifier: ''
+definition: Description coming soon...
+obligation: Required
+type: descriptive
+repeatable: 'false'
+legacy_marc: '8564_1'
+indexes:
+- configuration: researchoutputs
+  indexes:
+  - oaire.licenseCondition (file level)
+range:
+- label: List (licenses)
+  uri: ''
+  values:
+  - N/A
+  - CC BY
+  - CC BY-SA
+  - CC BY-ND
+  - CC BY-NC
+  - CC BY-NC-SA
+  - CC BY-NC-ND
+  - CC0
+  - PDM
+  - ODbL
+  - ODC-By
+  - PDDL
+  - MIT
+  - Apache
+  - BSD 3-Clause
+  - GNU GPLv3
+  - GNU LGPLv3
+  - GNU AGPLv3

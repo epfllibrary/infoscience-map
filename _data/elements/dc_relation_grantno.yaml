@@ -1,0 +1,20 @@
+label: Grant number
+label-fr: Numéro du grant
+name: dc_relation_grantno
+schema: dc
+dc-element: relation
+dc-qualifier: grantno
+definition: Description coming soon...
+obligation: recommended
+type: descriptive
+repeatable: 'true'
+legacy_marc: 536__c
+indexes:
+- configuration: researchoutputs
+  indexes:
+  - dc.relation.grantno
+range:
+- label: String
+  uri: ''
+  values:
+  - ''

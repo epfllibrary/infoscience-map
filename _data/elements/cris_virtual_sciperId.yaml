@@ -1,0 +1,20 @@
+label: Sciper ID
+label-fr: Identifiant Sciper
+name: cris_virtual_sciperId
+schema: cris
+dc-element: virtual
+dc-qualifier: sciperId
+definition: Description coming soon...
+obligation: virtualMetadata
+type: administrative
+repeatable: 'true'
+legacy_marc: 700__g, 720__g, 720_1g, 720_2g
+indexes:
+- configuration: researchoutputs
+  indexes:
+  - cris.virtual.sciperId
+range:
+- label: integer
+  uri: ''
+  values:
+  - ''

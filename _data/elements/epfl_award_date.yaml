@@ -1,0 +1,20 @@
+label: Award date
+label-fr: Date du prix ou de la récompense
+name: epfl_award_date
+schema: epfl
+dc-element: award
+dc-qualifier: date
+definition: Description coming soon...
+obligation: optional
+type: descriptive
+repeatable: 'true'
+legacy_marc: 586__b
+indexes:
+- configuration: researchoutputs
+  indexes:
+  - epfl.award.date
+range:
+- label: String
+  uri: ''
+  values:
+  - ''

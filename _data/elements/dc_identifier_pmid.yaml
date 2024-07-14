@@ -1,0 +1,21 @@
+label: PMID
+label-fr: PMID
+name: dc_identifier_pmid
+schema: dc
+dc-element: identifier
+dc-qualifier: pmid
+definition: Description coming soon...
+obligation: optional
+type: administrative
+repeatable: 'true'
+legacy_marc: 02470a (if 024702 == pmid)
+indexes:
+- configuration: researchoutputs
+  indexes:
+  - itemidentifier
+  - dc.identifier.pmid
+range:
+- label: Pubmed identifier
+  uri: ''
+  values:
+  - ''

@@ -1,0 +1,22 @@
+label: Author(s) or Inventor name
+label-fr: Auteur(s)
+name: dc_contributor_author
+schema: dc
+dc-element: contributor
+dc-qualifier: author
+definition: Description coming soon...
+obligation: requiredWhenAvailable
+type: descriptive
+repeatable: 'true'
+legacy_marc: 700__a
+indexes:
+- configuration: researchoutputs
+  indexes:
+  - author
+  - author_editor
+  - dc.contributor.author
+range:
+- label: String or author authority
+  uri: ''
+  values:
+  - ''

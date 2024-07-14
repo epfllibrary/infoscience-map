@@ -1,0 +1,20 @@
+label: Standard number
+label-fr: Numéro de la norme
+name: dc_identifier_standardno
+schema: dc
+dc-element: identifier
+dc-qualifier: standardno
+definition: Description coming soon...
+obligation: optional
+type: descriptive
+repeatable: 'false'
+legacy_marc: 740__a
+indexes:
+- configuration: researchoutputs
+  indexes:
+  - dc.identifier.standardno
+range:
+- label: String
+  uri: ''
+  values:
+  - ''

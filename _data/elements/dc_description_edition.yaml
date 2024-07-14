@@ -1,0 +1,20 @@
+label: Edition
+label-fr: Édition
+name: dc_description_edition
+schema: dc
+dc-element: description
+dc-qualifier: edition
+definition: Description coming soon...
+obligation: optional
+type: descriptive
+repeatable: 'false'
+legacy_marc: 8564_e
+indexes:
+- configuration: researchoutputs
+  indexes:
+  - dc.description.edition
+range:
+- label: String
+  uri: ''
+  values:
+  - ''

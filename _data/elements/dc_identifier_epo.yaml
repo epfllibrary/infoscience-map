@@ -1,0 +1,21 @@
+label: Patent Family ID
+label-fr: Identifiant famille EPO
+name: dc_identifier_epo
+schema: dc
+dc-element: identifier
+dc-qualifier: epo
+definition: Description coming soon...
+obligation: optional
+type: administrative
+repeatable: 'false'
+legacy_marc: 02470a (if 024702 == EPO Family ID)
+indexes:
+- configuration: researchoutputs
+  indexes:
+  - itemidentifier
+  - dc.identifier.epo
+range:
+- label: EPO family Identifier
+  uri: ''
+  values:
+  - ''

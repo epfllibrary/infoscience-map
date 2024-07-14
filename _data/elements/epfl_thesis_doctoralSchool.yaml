@@ -1,0 +1,20 @@
+label: Doctoral school or program
+label-fr: École ou Programme doctoral
+name: epfl_thesis_doctoralSchool
+schema: epfl
+dc-element: thesis
+dc-qualifier: doctoralSchool
+definition: Description coming soon...
+obligation: requiredWhenAvailable
+type: administrative
+repeatable: 'false'
+legacy_marc: 918__d
+indexes:
+- configuration: researchoutputs
+  indexes:
+  - epfl.thesis.doctoralSchool
+range:
+- label: orgunit authority
+  uri: ''
+  values:
+  - ''

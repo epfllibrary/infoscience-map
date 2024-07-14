@@ -1,0 +1,22 @@
+label: Scientific editor(s)
+label-fr: Éditeur(s) scientifique(s)
+name: dc_contributor_scientificeditor
+schema: dc
+dc-element: contributor
+dc-qualifier: scientificeditor
+definition: Description coming soon...
+obligation: requiredWhenAvailable
+type: descriptive
+repeatable: 'true'
+legacy_marc: 720_1a
+indexes:
+- configuration: researchoutputs
+  indexes:
+  - editor
+  - author_editor
+  - dc.contributor.scientificeditor
+range:
+- label: String
+  uri: ''
+  values:
+  - ''
