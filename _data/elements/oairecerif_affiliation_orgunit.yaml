@@ -4,17 +4,17 @@ name: oairecerif_affiliation_orgunit
 schema: oairecerif
 dc-element: affiliation
 dc-qualifier: orgunit
-definition: Description coming soon...
+definition: Affiliation at the author's unit level if a member of EPFL.
 obligation: recommended
 type: descriptive
 repeatable: 'false'
-legacy_marc: ''
+legacy_marc: null
 indexes:
 - configuration: researchoutputs
   indexes:
   - oairecerif.affiliation.orgunit
 range:
 - label: orgunit authority
-  uri: ''
+  uri: null
   values:
   - ''

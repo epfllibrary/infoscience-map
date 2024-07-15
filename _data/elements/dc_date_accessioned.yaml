@@ -4,17 +4,17 @@ name: dc_date_accessioned
 schema: dc
 dc-element: date
 dc-qualifier: accessioned
-definition: Description coming soon...
+definition: 'Date that the resource became or will become available. '
 obligation: automatic
 type: administrative
 repeatable: 'false'
-legacy_marc: ''
+legacy_marc: null
 indexes:
 - configuration: researchoutputs
   indexes:
   - dc.date.accessioned
 range:
 - label: Date
-  uri: ''
+  uri: null
   values:
   - ''

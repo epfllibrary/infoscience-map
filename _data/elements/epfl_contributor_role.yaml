@@ -4,17 +4,18 @@ name: epfl_contributor_role
 schema: epfl
 dc-element: contributor
 dc-qualifier: role
-definition: Description coming soon...
+definition: Flag to determine if the named entity is the primary correspondence author.
 obligation: optional
 type: descriptive
 repeatable: 'false'
-legacy_marc: ''
+legacy_marc: null
 indexes:
 - configuration: researchoutputs
   indexes:
   - epfl.contributor.role
 range:
 - label: true/false
-  uri: ''
+  uri: null
   values:
-  - ''
+  - 'yes'
+  - 'no'

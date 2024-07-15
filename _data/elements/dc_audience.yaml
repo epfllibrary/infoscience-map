@@ -3,8 +3,9 @@ label-fr: Public cible
 name: dc_audience
 schema: dc
 dc-element: audience
-dc-qualifier: ''
-definition: Description coming soon...
+dc-qualifier: null
+definition: Describes the intended or target audience for a particular resource or
+  content.
 obligation: optional
 type: descriptive
 repeatable: 'true'
@@ -15,7 +16,7 @@ indexes:
   - dc.audience
 range:
 - label: List
-  uri: ''
+  uri: null
   values:
   - Bachelor
   - Master

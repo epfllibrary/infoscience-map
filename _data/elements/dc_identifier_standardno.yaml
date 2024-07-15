@@ -4,7 +4,7 @@ name: dc_identifier_standardno
 schema: dc
 dc-element: identifier
 dc-qualifier: standardno
-definition: Description coming soon...
+definition: Standard number.
 obligation: optional
 type: descriptive
 repeatable: 'false'
@@ -15,6 +15,6 @@ indexes:
   - dc.identifier.standardno
 range:
 - label: String
-  uri: ''
+  uri: null
   values:
   - ''

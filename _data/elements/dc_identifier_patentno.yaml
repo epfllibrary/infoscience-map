@@ -4,7 +4,7 @@ name: dc_identifier_patentno
 schema: dc
 dc-element: identifier
 dc-qualifier: patentno
-definition: Description coming soon...
+definition: Patent number.
 obligation: optional
 type: descriptive
 repeatable: 'true'
@@ -15,6 +15,6 @@ indexes:
   - dc.identifier.patentno
 range:
 - label: String
-  uri: ''
+  uri: null
   values:
   - ''

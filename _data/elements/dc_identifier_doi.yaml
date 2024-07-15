@@ -4,7 +4,7 @@ name: dc_identifier_doi
 schema: dc
 dc-element: identifier
 dc-qualifier: doi
-definition: Description coming soon...
+definition: Digital Object Identifier.
 obligation: requiredWhenAvailable
 type: descriptive
 repeatable: 'true'
@@ -17,6 +17,6 @@ indexes:
   - dc.identifier.doi
 range:
 - label: DOI identifier
-  uri: ''
+  uri: null
   values:
   - ''

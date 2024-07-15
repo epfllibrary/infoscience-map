@@ -4,17 +4,17 @@ name: dc_identifier_reportno
 schema: dc
 dc-element: identifier
 dc-qualifier: reportno
-definition: Description coming soon...
+definition: Report number.
 obligation: optional
 type: descriptive
 repeatable: 'false'
-legacy_marc: ''
+legacy_marc: null
 indexes:
 - configuration: researchoutputs
   indexes:
   - dc.identifier.reportno
 range:
 - label: String
-  uri: ''
+  uri: null
   values:
   - ''

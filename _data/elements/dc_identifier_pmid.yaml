@@ -4,7 +4,7 @@ name: dc_identifier_pmid
 schema: dc
 dc-element: identifier
 dc-qualifier: pmid
-definition: Description coming soon...
+definition: Pubmed reference number.
 obligation: optional
 type: administrative
 repeatable: 'true'
@@ -16,6 +16,6 @@ indexes:
   - dc.identifier.pmid
 range:
 - label: Pubmed identifier
-  uri: ''
+  uri: null
   values:
   - ''

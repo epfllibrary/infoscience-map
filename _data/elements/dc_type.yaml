@@ -3,8 +3,8 @@ label-fr: Type
 name: dc_type
 schema: dc
 dc-element: type
-dc-qualifier: ''
-definition: Description coming soon...
+dc-qualifier: null
+definition: 'The nature or genre of the resource. '
 obligation: required
 type: descriptive
 repeatable: 'false'
@@ -16,7 +16,76 @@ indexes:
   - itemtype
   - dc.type
 range:
-- label: COAR Resources types vocabulary
+- label: COAR resource types vocabulary
   uri: https://vocabularies.coar-repositories.org/resource_types/
   values:
-  - ''
+  - dataset
+  - dataset::aggregated data
+  - dataset::clinical trial data
+  - dataset::compiled data
+  - dataset::encoded data
+  - dataset::experimental data
+  - dataset::genomic data
+  - dataset::geospatial data
+  - dataset::laboratory notebook
+  - dataset::measurement and test data
+  - dataset::observational data
+  - dataset::recorded data
+  - dataset::simulation data
+  - dataset::survey data
+  - design
+  - design::industrial design
+  - design::layout design
+  - image
+  - image::moving image
+  - image::moving image::video
+  - image::still image
+  - interactive resource
+  - interactive resource::website
+  - patent
+  - patent::design patent
+  - patent::PCT application
+  - patent::plant patent
+  - patent::plant variety protection
+  - patent::software patent
+  - patent::utility model
+  - software
+  - software::research software
+  - software::source code
+  - student work
+  - student work::bachelor thesis
+  - student work::master thesis
+  - student work::semester or other student projects
+  - teaching material
+  - text
+  - text::blog post
+  - text::book/monograph
+  - text::book/monograph::book part or chapter
+  - text::conference output
+  - text::conference output::conference paper not in proceedings
+  - text::conference output::conference poster not in proceedings
+  - text::conference output::conference presentation
+  - text::conference output::conference proceedings
+  - text::conference output::conference proceedings::conference paper
+  - text::conference output::conference proceedings::conference poster
+  - text::journal
+  - text::journal::editorial
+  - text::journal::journal article
+  - text::journal::journal article::data paper
+  - text::journal::journal article::research article
+  - text::journal::journal article::review article
+  - text::journal::journal article::software paper
+  - text::magazine
+  - text::newspaper article
+  - text::preprint
+  - text::report
+  - text::report::clinical study
+  - text::report::data management plan
+  - text::report::policy report
+  - text::report::research protocol
+  - text::report::research report
+  - text::report::technical report
+  - text::technical documentation or standard
+  - text::working paper
+  - thesis
+  - thesis::doctoral thesis

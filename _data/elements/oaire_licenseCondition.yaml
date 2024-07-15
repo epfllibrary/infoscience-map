@@ -3,8 +3,9 @@ label-fr: Licence
 name: oaire_licenseCondition
 schema: oaire
 dc-element: licenseCondition (file level)
-dc-qualifier: ''
-definition: Description coming soon...
+dc-qualifier: null
+definition: A legal document (license) giving official permission to do something
+  with the resource. (file level)
 obligation: Required
 type: descriptive
 repeatable: 'false'
@@ -15,7 +16,7 @@ indexes:
   - oaire.licenseCondition (file level)
 range:
 - label: List (licenses)
-  uri: ''
+  uri: null
   values:
   - N/A
   - CC BY

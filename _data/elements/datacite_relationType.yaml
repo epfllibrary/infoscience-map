@@ -3,8 +3,9 @@ label-fr: Type de relation
 name: datacite_relationType
 schema: datacite
 dc-element: relationType
-dc-qualifier: ''
-definition: Description coming soon...
+dc-qualifier: null
+definition: Controlled list values for describing the relationship between the two
+  linked resources.
 obligation: optional
 type: descriptive
 repeatable: 'true'
@@ -15,7 +16,7 @@ indexes:
   - datacite.relationType
 range:
 - label: List (epfl_relation_type)
-  uri: ''
+  uri: null
   values:
   - IsCitedBy
   - Cites

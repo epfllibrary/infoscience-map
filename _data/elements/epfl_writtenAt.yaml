@@ -3,8 +3,9 @@ label-fr: Rédigé en étant affilié à l'EPFL
 name: epfl_writtenAt
 schema: epfl
 dc-element: writtenAt
-dc-qualifier: ''
-definition: Description coming soon...
+dc-qualifier: null
+definition: Indicates whether the resource was produced or created by a contributor
+  while affiliated with EPFL.
 obligation: required
 type: administrative
 repeatable: 'false'
@@ -15,7 +16,7 @@ indexes:
   - epfl.writtenAt
 range:
 - label: List (epfl_written_at)
-  uri: ''
+  uri: null
   values:
   - EPFL
   - OTHER

@@ -3,8 +3,8 @@ label-fr: Taille, durée du contenu principal
 name: dc_size
 schema: dc
 dc-element: size
-dc-qualifier: ''
-definition: Description coming soon...
+dc-qualifier: null
+definition: 'The size or duration of the resource. '
 obligation: optional
 type: descriptive
 repeatable: 'false'
@@ -15,6 +15,6 @@ indexes:
   - dc.size
 range:
 - label: String
-  uri: ''
+  uri: null
   values:
   - ''

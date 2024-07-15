@@ -4,11 +4,12 @@ name: oairecerif_author_affiliation
 schema: oairecerif
 dc-element: author
 dc-qualifier: affiliation
-definition: Description coming soon...
+definition: The authors´ institutions; the affiliation for a journal article or conference
+  paper pertains to the resource
 obligation: recommended
 type: descriptive
 repeatable: 'false'
-legacy_marc: ''
+legacy_marc: null
 indexes:
 - configuration: researchoutputs
   indexes:

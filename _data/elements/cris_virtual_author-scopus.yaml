@@ -4,17 +4,17 @@ name: cris_virtual_author-scopus
 schema: cris
 dc-element: virtual
 dc-qualifier: author-scopus
-definition: Description coming soon...
+definition: Scopus Author ID is an identifying system for scientific authors.
 obligation: virtualMetadata
 type: administrative
 repeatable: 'true'
-legacy_marc: ''
+legacy_marc: null
 indexes:
 - configuration: researchoutputs
   indexes:
   - cris.virtual.author-scopus
 range:
 - label: Scopus Author Identifier
-  uri: ''
+  uri: null
   values:
   - ''

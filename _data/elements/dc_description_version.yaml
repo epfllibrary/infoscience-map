@@ -4,7 +4,7 @@ name: dc_description_version
 schema: dc
 dc-element: description
 dc-qualifier: version
-definition: Description coming soon...
+definition: Version of the resource. Primarily used in Datasets.
 obligation: optional
 type: descriptive
 repeatable: 'false'
@@ -15,6 +15,6 @@ indexes:
   - dc.description.version
 range:
 - label: String
-  uri: ''
+  uri: null
   values:
   - ''

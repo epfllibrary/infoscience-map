@@ -4,17 +4,17 @@ name: cris_virtual_parent-organization
 schema: cris
 dc-element: virtual
 dc-qualifier: parent-organization
-definition: Description coming soon...
+definition: Hierarchy of the EPFL unit or laboratory responsible for the resource.
 obligation: virtualMetadata
 type: administrative
 repeatable: 'true'
-legacy_marc: ''
+legacy_marc: null
 indexes:
 - configuration: researchoutputs
   indexes:
   - cris.virtual.parent-organization
 range:
 - label: orgunit authority
-  uri: ''
+  uri: null
   values:
   - ''

@@ -3,8 +3,9 @@ label-fr: Sujet(s)
 name: dc_subject
 schema: dc
 dc-element: subject
-dc-qualifier: ''
-definition: Description coming soon...
+dc-qualifier: null
+definition: The topic of the resource. Keywords that describes the content of the
+  item.
 obligation: recommended
 type: descriptive
 repeatable: 'true'
@@ -16,6 +17,6 @@ indexes:
   - dc.subject
 range:
 - label: String
-  uri: ''
+  uri: null
   values:
   - ''

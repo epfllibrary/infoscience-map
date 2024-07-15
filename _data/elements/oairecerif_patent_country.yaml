@@ -4,7 +4,7 @@ name: oairecerif_patent_country
 schema: oairecerif
 dc-element: patent
 dc-qualifier: country
-definition: Description coming soon...
+definition: Country of patent publication in the OpenAIRE-CERIF metadata standard.
 obligation: recommended
 type: descriptive
 repeatable: 'true'
@@ -15,6 +15,6 @@ indexes:
   - oairecerif.patent.country
 range:
 - label: String
-  uri: ''
+  uri: null
   values:
   - ''

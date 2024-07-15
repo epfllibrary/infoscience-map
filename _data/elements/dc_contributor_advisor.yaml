@@ -4,7 +4,8 @@ name: dc_contributor_advisor
 schema: dc
 dc-element: contributor
 dc-qualifier: advisor
-definition: Description coming soon...
+definition: A person responsible for advising or for having directed the resource.
+  Use primarily for thesis advisor.
 obligation: requiredWhenAvailable
 type: descriptive
 repeatable: 'true'
@@ -16,6 +17,6 @@ indexes:
   - dc.contributor.advisor
 range:
 - label: String or advisor authority
-  uri: ''
+  uri: null
   values:
   - ''

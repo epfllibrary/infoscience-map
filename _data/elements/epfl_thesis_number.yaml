@@ -4,7 +4,7 @@ name: epfl_thesis_number
 schema: epfl
 dc-element: thesis
 dc-qualifier: number
-definition: Description coming soon...
+definition: EPFL thesis administrative number.
 obligation: requiredWhenAvailable
 type: administrative
 repeatable: 'true'
@@ -15,6 +15,6 @@ indexes:
   - epfl.thesis.number
 range:
 - label: EPFL thesis administrative number
-  uri: ''
+  uri: null
   values:
   - ''

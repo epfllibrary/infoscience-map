@@ -4,7 +4,7 @@ name: dc_date_created
 schema: dc
 dc-element: date
 dc-qualifier: created
-definition: Description coming soon...
+definition: 'Date of creation of the resource. '
 obligation: automatic
 type: administrative
 repeatable: 'false'
@@ -16,6 +16,6 @@ indexes:
   - dc.date.created
 range:
 - label: Date
-  uri: ''
+  uri: null
   values:
   - ''

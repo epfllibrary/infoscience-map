@@ -4,7 +4,7 @@ name: cris_virtual_sciperId
 schema: cris
 dc-element: virtual
 dc-qualifier: sciperId
-definition: Description coming soon...
+definition: Digital unique identifier attributed to an EPFL member.
 obligation: virtualMetadata
 type: administrative
 repeatable: 'true'
@@ -15,6 +15,6 @@ indexes:
   - cris.virtual.sciperId
 range:
 - label: integer
-  uri: ''
+  uri: null
   values:
   - ''

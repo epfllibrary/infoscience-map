@@ -4,7 +4,7 @@ name: dc_description_abstract
 schema: dc
 dc-element: description
 dc-qualifier: abstract
-definition: Description coming soon...
+definition: A summary of the resource.
 obligation: recommended
 type: descriptive
 repeatable: 'true'
@@ -16,6 +16,6 @@ indexes:
   - dc.description.abstract
 range:
 - label: String
-  uri: ''
+  uri: null
   values:
   - ''

@@ -3,8 +3,9 @@ label-fr: Conditions d'accès
 name: datacite_rights
 schema: datacite
 dc-element: rights
-dc-qualifier: ''
-definition: Description coming soon...
+dc-qualifier: null
+definition: Information about who can access the resource or an indication of its
+  security status.
 obligation: automatic
 type: administrative
 repeatable: 'false'
@@ -15,7 +16,7 @@ indexes:
   - datacite_rights
   - datacite.rights
 range:
-- label: List
+- label: COAR access rights  vocabulary
   uri: https://vocabularies.coar-repositories.org/access_rights/
   values:
   - metadata-only

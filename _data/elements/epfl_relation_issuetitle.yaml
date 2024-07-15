@@ -4,17 +4,17 @@ name: epfl_relation_issuetitle
 schema: epfl
 dc-element: relation
 dc-qualifier: issuetitle
-definition: Description coming soon...
+definition: The specifi issue name in which the resource appeared.
 obligation: optional
 type: descriptive
 repeatable: 'false'
-legacy_marc: ''
+legacy_marc: null
 indexes:
 - configuration: researchoutputs
   indexes:
   - epfl.relation.issuetitle
 range:
 - label: String
-  uri: ''
+  uri: null
   values:
   - ''

@@ -3,8 +3,8 @@ label-fr: Financeur
 name: oairecerif_funder
 schema: oairecerif
 dc-element: funder
-dc-qualifier: ''
-definition: Description coming soon...
+dc-qualifier: null
+definition: Enable identification of the research funder and other funding information.
 obligation: recommended
 type: descriptive
 repeatable: 'true'

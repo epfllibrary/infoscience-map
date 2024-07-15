@@ -3,8 +3,8 @@ label-fr: Prix
 name: epfl_award
 schema: epfl
 dc-element: award
-dc-qualifier: ''
-definition: Description coming soon...
+dc-qualifier: null
+definition: Description of an award received by the resource.
 obligation: optional
 type: descriptive
 repeatable: 'true'
@@ -15,6 +15,6 @@ indexes:
   - epfl.award
 range:
 - label: String
-  uri: ''
+  uri: null
   values:
   - ''

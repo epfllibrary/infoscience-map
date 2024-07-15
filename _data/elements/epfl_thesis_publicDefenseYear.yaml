@@ -4,7 +4,7 @@ name: epfl_thesis_publicDefenseYear
 schema: epfl
 dc-element: thesis
 dc-qualifier: publicDefenseYear
-definition: Description coming soon...
+definition: The year in which a thesis was publicly defended.
 obligation: requiredWhenAvailable
 type: descriptive
 repeatable: 'false'
@@ -15,6 +15,6 @@ indexes:
   - epfl.thesis.publicDefenseYear
 range:
 - label: Date (year)
-  uri: ''
+  uri: null
   values:
   - ''

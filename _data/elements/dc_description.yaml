@@ -3,8 +3,8 @@ label-fr: Description du fichier
 name: dc_description
 schema: dc
 dc-element: description
-dc-qualifier: ''
-definition: Description coming soon...
+dc-qualifier: null
+definition: Description of the file.
 obligation: optional
 type: descriptive
 repeatable: 'false'
@@ -15,6 +15,6 @@ indexes:
   - dc.description
 range:
 - label: String
-  uri: ''
+  uri: null
   values:
   - ''

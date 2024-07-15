@@ -4,7 +4,7 @@ name: epfl_part_number
 schema: epfl
 dc-element: part
 dc-qualifier: number
-definition: Description coming soon...
+definition: Title of the part in which the resource appeared.
 obligation: optional
 type: descriptive
 repeatable: 'false'
@@ -15,6 +15,6 @@ indexes:
   - epfl.part.number
 range:
 - label: String
-  uri: ''
+  uri: null
   values:
   - ''

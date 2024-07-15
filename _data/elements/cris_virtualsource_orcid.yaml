@@ -4,17 +4,18 @@ name: cris_virtualsource_orcid
 schema: cris
 dc-element: virtualsource
 dc-qualifier: orcid
-definition: Description coming soon...
+definition: Open Researcher and Contributor ID), a nonproprietary alphanumeric code
+  to uniquely identify authors and contributors of scholarly communication.
 obligation: virtualMetadata
 type: administrative
 repeatable: 'true'
-legacy_marc: ''
+legacy_marc: null
 indexes:
 - configuration: researchoutputs
   indexes:
   - cris.virtualsource.orcid
 range:
 - label: ORCID identifier
-  uri: ''
+  uri: null
   values:
   - ''

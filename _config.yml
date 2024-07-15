@@ -14,7 +14,7 @@ enforce_ssl: ""
 baseurl: "/infoscience-map"
 
 # Title of website
-title: INFOSCIENCE METADATA APPLICATION PROFILE
+title: INFOSCIENCE Metadata profile
 
 #Default keywords (used if no keywords are specified on a page basis)
 keywords: dspace-cris, EPFL, metadata application profile

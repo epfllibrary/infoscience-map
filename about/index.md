@@ -9,4 +9,8 @@ comments: false
     <p><a class="btn btn-lg btn-primary" href="https://github.com/epfllibrary/infoscience-map" role="button">View {{ site.title }} Code on Github &raquo;</a></p>
 </div>
 
+# API
 
+| Function                          | Returns |
+| --------------------------------- | ------- |
+| ```/api/elements.json```          | All metadata elements as JSON |

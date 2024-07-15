@@ -4,7 +4,7 @@ name: dc_date_accepted
 schema: dc
 dc-element: date
 dc-qualifier: accepted
-definition: Description coming soon...
+definition: Date of acceptance of the resource.
 obligation: optional
 type: administrative
 repeatable: 'false'
@@ -15,6 +15,6 @@ indexes:
   - dc.date.accepted
 range:
 - label: Date
-  uri: ''
+  uri: null
   values:
   - ''

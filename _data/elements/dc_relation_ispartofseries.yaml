@@ -4,7 +4,7 @@ name: dc_relation_ispartofseries
 schema: dc
 dc-element: relation
 dc-qualifier: ispartofseries
-definition: Description coming soon...
+definition: The name of the series in which the resource appeared.
 obligation: optional
 type: descriptive
 repeatable: 'false'
@@ -15,6 +15,6 @@ indexes:
   - dc.relation.ispartofseries
 range:
 - label: String
-  uri: ''
+  uri: null
   values:
   - ''

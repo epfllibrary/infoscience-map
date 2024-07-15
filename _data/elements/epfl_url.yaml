@@ -3,8 +3,8 @@ label-fr: Lien supplémentaire
 name: epfl_url
 schema: epfl
 dc-element: url
-dc-qualifier: ''
-definition: Description coming soon...
+dc-qualifier: null
+definition: Alternative access URL for the resource.
 obligation: optional
 type: descriptive
 repeatable: 'true'
@@ -15,6 +15,6 @@ indexes:
   - epfl.url
 range:
 - label: String
-  uri: ''
+  uri: null
   values:
   - ''

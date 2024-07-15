@@ -4,7 +4,8 @@ name: dc_relation_issn
 schema: dc
 dc-element: relation
 dc-qualifier: issn
-definition: Description coming soon...
+definition: The International Standard Serial Number of the journal in which the resource
+  appeared.
 obligation: requiredWhenAvailable
 type: descriptive
 repeatable: 'true'
@@ -15,6 +16,6 @@ indexes:
   - dc.relation.issn
 range:
 - label: ISSN
-  uri: ''
+  uri: null
   values:
   - ''

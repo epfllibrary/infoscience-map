@@ -3,8 +3,8 @@ label-fr: Contributeur(s)
 name: dc_contributor
 schema: dc
 dc-element: contributor
-dc-qualifier: ''
-definition: Description coming soon...
+dc-qualifier: null
+definition: An entity responsible for making contributions to the resource.
 obligation: optional
 type: descriptive
 repeatable: 'true'
@@ -15,6 +15,6 @@ indexes:
   - dc.contributor
 range:
 - label: String or editor authority
-  uri: ''
+  uri: null
   values:
   - ''

@@ -4,17 +4,17 @@ name: dc_title_alternative
 schema: dc
 dc-element: title
 dc-qualifier: alternative
-definition: Description coming soon...
+definition: An alternative name for the resource (translated title)
 obligation: optional
 type: descriptive
 repeatable: 'true'
-legacy_marc: ''
+legacy_marc: null
 indexes:
 - configuration: researchoutputs
   indexes:
   - dc.title.alternative
 range:
 - label: String
-  uri: ''
+  uri: null
   values:
   - ''

@@ -4,7 +4,7 @@ name: dc_date_issued
 schema: dc
 dc-element: date
 dc-qualifier: issued
-definition: Description coming soon...
+definition: 'Date of formal issuance (e.g., publication) of the resource. '
 obligation: requiredWhenAvailable
 type: descriptive
 repeatable: 'false'
@@ -16,6 +16,6 @@ indexes:
   - dc.date.issued
 range:
 - label: Date
-  uri: ''
+  uri: null
   values:
   - ''

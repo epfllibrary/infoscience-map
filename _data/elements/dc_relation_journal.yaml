@@ -4,7 +4,7 @@ name: dc_relation_journal
 schema: dc
 dc-element: relation
 dc-qualifier: journal
-definition: Description coming soon...
+definition: The name of the journal in which the resource appeared.
 obligation: requiredWhenAvailable
 type: descriptive
 repeatable: 'false'
@@ -17,6 +17,6 @@ indexes:
   - dc.relation.journal
 range:
 - label: String or Journal authority or Sherpa Romeo Registry
-  uri: ''
+  uri: null
   values:
   - ''

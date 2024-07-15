@@ -4,7 +4,7 @@ name: oaire_citation_conferenceDate
 schema: oaire
 dc-element: citation
 dc-qualifier: conferenceDate
-definition: Description coming soon...
+definition: Date of the conference at which the resource was presented
 obligation: recommended
 type: descriptive
 repeatable: 'false'
@@ -15,6 +15,6 @@ indexes:
   - oaire.citation.conferenceDate
 range:
 - label: String
-  uri: ''
+  uri: null
   values:
   - ''

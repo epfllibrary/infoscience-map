@@ -3,8 +3,8 @@ label-fr: Titre
 name: dc_title
 schema: dc
 dc-element: title
-dc-qualifier: ''
-definition: Description coming soon...
+dc-qualifier: null
+definition: A name given to the resource.
 obligation: required
 type: descriptive
 repeatable: 'false'
@@ -16,6 +16,6 @@ indexes:
   - dc.title
 range:
 - label: String
-  uri: ''
+  uri: null
   values:
   - ''

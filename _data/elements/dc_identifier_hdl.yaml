@@ -4,11 +4,11 @@ name: dc_identifier_hdl
 schema: dc
 dc-element: identifier
 dc-qualifier: hdl
-definition: Description coming soon...
+definition: Handle System identifier.
 obligation: automatic
 type: administrative
 repeatable: 'false'
-legacy_marc: ''
+legacy_marc: null
 indexes:
 - configuration: researchoutputs
   indexes:
@@ -16,6 +16,6 @@ indexes:
   - dc.identifier.hdl
 range:
 - label: Handle identifier (prefix 20.500.14299/{id})
-  uri: ''
+  uri: null
   values:
   - ''

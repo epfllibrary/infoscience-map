@@ -4,11 +4,12 @@ name: oairecerif_scientificeditor_affiliation
 schema: oairecerif
 dc-element: scientificeditor
 dc-qualifier: affiliation
-definition: Description coming soon...
+definition: The scientific editor´ institutions; the affiliation for a book or book
+  chapter or conference proceedings pertains to the resource
 obligation: recommended
 type: descriptive
 repeatable: 'false'
-legacy_marc: ''
+legacy_marc: null
 indexes:
 - configuration: researchoutputs
   indexes:

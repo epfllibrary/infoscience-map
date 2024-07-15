@@ -4,7 +4,8 @@ name: dc_description_sponsorship
 schema: dc
 dc-element: description
 dc-qualifier: sponsorship
-definition: Description coming soon...
+definition: Metadata describing the EPFL unit or laboratory to which the resource
+  is attributed.
 obligation: required
 type: administrative
 repeatable: 'true'
@@ -18,6 +19,6 @@ indexes:
   - dc.description.sponsorship
 range:
 - label: orgunit authority
-  uri: ''
+  uri: null
   values:
   - ''

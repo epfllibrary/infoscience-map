@@ -4,7 +4,7 @@ name: dc_identifier_epo
 schema: dc
 dc-element: identifier
 dc-qualifier: epo
-definition: Description coming soon...
+definition: European Patent Office identifier.
 obligation: optional
 type: administrative
 repeatable: 'false'
@@ -16,6 +16,6 @@ indexes:
   - dc.identifier.epo
 range:
 - label: EPO family Identifier
-  uri: ''
+  uri: null
   values:
   - ''

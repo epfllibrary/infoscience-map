@@ -4,7 +4,7 @@ name: dc_language_iso
 schema: dc
 dc-element: language
 dc-qualifier: iso
-definition: Description coming soon...
+definition: A language of the resource. ISO 639-1 language codes.
 obligation: recommended
 type: descriptive
 repeatable: 'true'
@@ -16,7 +16,7 @@ indexes:
   - dc.language.iso
 range:
 - label: ISO code list (common_iso_languages)
-  uri: ''
+  uri: null
   values:
   - en
   - fr

@@ -3,8 +3,8 @@ label-fr: Ancien identifiant
 name: cris_legacyId
 schema: cris
 dc-element: legacyId
-dc-qualifier: ''
-definition: Description coming soon...
+dc-qualifier: null
+definition: The legacy primary identifier of the old system.
 obligation: legacy
 type: legacy
 repeatable: 'false'
@@ -15,6 +15,6 @@ indexes:
   - cris.legacyId
 range:
 - label: integer
-  uri: ''
+  uri: null
   values:
   - ''

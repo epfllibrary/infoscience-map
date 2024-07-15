@@ -4,7 +4,7 @@ name: epfl_url_description
 schema: epfl
 dc-element: url
 dc-qualifier: description
-definition: Description coming soon...
+definition: Description of the alternative access URL for the resource.
 obligation: optional
 type: descriptive
 repeatable: 'true'
@@ -15,6 +15,6 @@ indexes:
   - epfl.url.description
 range:
 - label: String
-  uri: ''
+  uri: null
   values:
   - ''

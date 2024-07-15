@@ -4,7 +4,7 @@ name: epfl_patent_kindcode
 schema: epfl
 dc-element: patent
 dc-qualifier: kindcode
-definition: Description coming soon...
+definition: Describes the specific type or category of a patent.
 obligation: recommended
 type: descriptive
 repeatable: 'true'
@@ -15,6 +15,6 @@ indexes:
   - epfl.patent.kindcode
 range:
 - label: String
-  uri: ''
+  uri: null
   values:
   - ''

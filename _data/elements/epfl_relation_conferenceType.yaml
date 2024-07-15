@@ -4,18 +4,18 @@ name: epfl_relation_conferenceType
 schema: epfl
 dc-element: relation
 dc-qualifier: conferenceType
-definition: Description coming soon...
+definition: The type of conference or event associated with the resource
 obligation: optional
 type: descriptive
 repeatable: 'false'
-legacy_marc: ''
+legacy_marc: null
 indexes:
 - configuration: researchoutputs
   indexes:
   - epfl.relation.conferenceType
 range:
 - label: List (event_types)
-  uri: ''
+  uri: null
   values:
   - conference
   - workshop

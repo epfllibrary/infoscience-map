@@ -4,7 +4,7 @@ name: dc_contributor_scientificeditor
 schema: dc
 dc-element: contributor
 dc-qualifier: scientificeditor
-definition: Description coming soon...
+definition: A person responsible for editing or for having directed the resource.
 obligation: requiredWhenAvailable
 type: descriptive
 repeatable: 'true'
@@ -17,6 +17,6 @@ indexes:
   - dc.contributor.scientificeditor
 range:
 - label: String
-  uri: ''
+  uri: null
   values:
   - ''

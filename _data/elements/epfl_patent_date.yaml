@@ -4,7 +4,7 @@ name: epfl_patent_date
 schema: epfl
 dc-element: patent
 dc-qualifier: date
-definition: Description coming soon...
+definition: 'Date of formal issuance of the patent. '
 obligation: requiredWhenAvailable
 type: descriptive
 repeatable: 'true'
@@ -15,6 +15,6 @@ indexes:
   - epfl.patent.date
 range:
 - label: Date
-  uri: ''
+  uri: null
   values:
   - ''

@@ -4,17 +4,17 @@ name: dc_identifier_applicationnumber
 schema: dc
 dc-element: identifier
 dc-qualifier: applicationnumber
-definition: Description coming soon...
+definition: Patent application number.
 obligation: optional
 type: descriptive
 repeatable: 'true'
-legacy_marc: ''
+legacy_marc: null
 indexes:
 - configuration: researchoutputs
   indexes:
   - dc.identifier.applicationnumber
 range:
 - label: String
-  uri: ''
+  uri: null
   values:
   - ''

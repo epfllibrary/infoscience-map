@@ -1,0 +1,25 @@
+---
+layout: nil
+---
+
+[
+{% for field in site.data.elements %}
+	{% assign element = field[1] %}
+	{
+		"label": "{{ element.label }}",
+		"label-fr": "{{ element.label-fr }}",        
+		"name": "{{ element.name }}",
+		"schema": "{{ element.namespace }}",        
+        "dc-element": "{{ element.dc-element }}",
+		"dc-qualifier": "{{ element.dc-qualifier }}",
+		"definition": "{{ element.definition }}",
+		"legacy_marc": "{{ element.legacy_marc }}",        
+		"uri": "{{ site.url }}#{{ element.name }}",
+		"range": {{ element.range | jsonify }},
+        "indexes": {{ element.indexes | jsonify }},
+		"obligation": "{{ element.obligation }}",
+		"type": "{{ element.type }}",
+		"repeatable": {{ element.repeatable }}
+	}{% if forloop.last == false %},{% endif %}
+{% endfor %}
+]

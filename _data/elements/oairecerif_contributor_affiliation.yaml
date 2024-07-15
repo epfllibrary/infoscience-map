@@ -4,11 +4,12 @@ name: oairecerif_contributor_affiliation
 schema: oairecerif
 dc-element: contributor
 dc-qualifier: affiliation
-definition: Description coming soon...
+definition: The contributors´ institutions; the affiliation for a journal article
+  or conference paper pertains to the resource.
 obligation: optional
 type: descriptive
 repeatable: 'false'
-legacy_marc: ''
+legacy_marc: null
 indexes:
 - configuration: researchoutputs
   indexes:

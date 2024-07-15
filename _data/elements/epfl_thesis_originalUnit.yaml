@@ -4,7 +4,7 @@ name: epfl_thesis_originalUnit
 schema: epfl
 dc-element: thesis
 dc-qualifier: originalUnit
-definition: Description coming soon...
+definition: The EPFL unit affiliation of the thesis.
 obligation: requiredWhenAvailable
 type: administrative
 repeatable: 'true'
@@ -15,6 +15,6 @@ indexes:
   - epfl.thesis.originalUnit
 range:
 - label: orgunit authority
-  uri: ''
+  uri: null
   values:
   - ''

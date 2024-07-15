@@ -4,7 +4,7 @@ name: oaire_citation_articlenumber
 schema: oaire
 dc-element: citation
 dc-qualifier: articlenumber
-definition: Description coming soon...
+definition: The article number of the article as stated in the journal.
 obligation: recommended
 type: descriptive
 repeatable: 'false'
@@ -15,6 +15,6 @@ indexes:
   - oaire.citation.articlenumber
 range:
 - label: String
-  uri: ''
+  uri: null
   values:
   - ''

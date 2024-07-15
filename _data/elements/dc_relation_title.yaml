@@ -4,17 +4,17 @@ name: dc_relation_title
 schema: dc
 dc-element: relation
 dc-qualifier: title
-definition: Description coming soon...
+definition: A related resource.
 obligation: optional
 type: descriptive
 repeatable: 'true'
-legacy_marc: ''
+legacy_marc: null
 indexes:
 - configuration: researchoutputs
   indexes:
   - dc.relation.title
 range:
 - label: String or Item authority
-  uri: ''
+  uri: null
   values:
   - ''

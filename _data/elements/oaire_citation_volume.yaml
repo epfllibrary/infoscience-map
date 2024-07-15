@@ -4,7 +4,8 @@ name: oaire_citation_volume
 schema: oaire
 dc-element: citation
 dc-qualifier: volume
-definition: Description coming soon...
+definition: The volume of the container publication (journal or book) in which the
+  resource appeared.
 obligation: recommended
 type: descriptive
 repeatable: 'false'
@@ -15,6 +16,6 @@ indexes:
   - oaire.citation.volume
 range:
 - label: String
-  uri: ''
+  uri: null
   values:
   - ''

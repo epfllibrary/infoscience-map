@@ -4,7 +4,7 @@ name: dc_identifier_scopus
 schema: dc
 dc-element: identifier
 dc-qualifier: scopus
-definition: Description coming soon...
+definition: Scopus reference number.
 obligation: optional
 type: administrative
 repeatable: 'true'
@@ -16,6 +16,6 @@ indexes:
   - dc.identifier.scopus
 range:
 - label: Scopus Record identifier
-  uri: ''
+  uri: null
   values:
   - ''

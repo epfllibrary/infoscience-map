@@ -4,7 +4,7 @@ name: epfl_thesis_faculty
 schema: epfl
 dc-element: thesis
 dc-qualifier: faculty
-definition: Description coming soon...
+definition: The Faculty affiliation of the thesis.
 obligation: requiredWhenAvailable
 type: administrative
 repeatable: 'false'
@@ -15,6 +15,6 @@ indexes:
   - epfl.thesis.faculty
 range:
 - label: orgunit authority
-  uri: ''
+  uri: null
   values:
   - ''

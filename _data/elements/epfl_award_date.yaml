@@ -4,7 +4,7 @@ name: epfl_award_date
 schema: epfl
 dc-element: award
 dc-qualifier: date
-definition: Description coming soon...
+definition: Date of an award received by the resource.
 obligation: optional
 type: descriptive
 repeatable: 'true'
@@ -15,6 +15,6 @@ indexes:
   - epfl.award.date
 range:
 - label: String
-  uri: ''
+  uri: null
   values:
   - ''

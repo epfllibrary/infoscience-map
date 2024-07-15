@@ -4,7 +4,8 @@ name: oaire_citation_issue
 schema: oaire
 dc-element: citation
 dc-qualifier: issue
-definition: Description coming soon...
+definition: The issue of the container publication (journal or book) in which the
+  resource appeared.
 obligation: recommended
 type: descriptive
 repeatable: 'false'
@@ -15,6 +16,6 @@ indexes:
   - oaire.citation.issue
 range:
 - label: String
-  uri: ''
+  uri: null
   values:
   - ''

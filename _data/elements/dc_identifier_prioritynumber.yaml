@@ -4,17 +4,17 @@ name: dc_identifier_prioritynumber
 schema: dc
 dc-element: identifier
 dc-qualifier: prioritynumber
-definition: Description coming soon...
+definition: Patent priority number.
 obligation: optional
 type: descriptive
 repeatable: 'true'
-legacy_marc: ''
+legacy_marc: null
 indexes:
 - configuration: researchoutputs
   indexes:
   - dc.identifier.prioritynumber
 range:
 - label: String
-  uri: ''
+  uri: null
   values:
   - ''

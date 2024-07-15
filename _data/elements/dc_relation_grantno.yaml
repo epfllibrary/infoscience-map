@@ -4,7 +4,7 @@ name: dc_relation_grantno
 schema: dc
 dc-element: relation
 dc-qualifier: grantno
-definition: Description coming soon...
+definition: Identifier for the grant or funding associated with the resource.
 obligation: recommended
 type: descriptive
 repeatable: 'true'
@@ -15,6 +15,6 @@ indexes:
   - dc.relation.grantno
 range:
 - label: String
-  uri: ''
+  uri: null
   values:
   - ''

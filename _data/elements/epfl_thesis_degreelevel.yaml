@@ -4,7 +4,7 @@ name: epfl_thesis_degreelevel
 schema: epfl
 dc-element: thesis
 dc-qualifier: degreelevel
-definition: Description coming soon...
+definition: 'Indicates the academic level or stage of a thesis '
 obligation: legacy
 type: legacy
 repeatable: 'false'
@@ -14,7 +14,7 @@ indexes:
   indexes:
   - epfl.thesis.degreelevel
 range:
-- label: ''
-  uri: ''
+- label: null
+  uri: null
   values:
   - ''

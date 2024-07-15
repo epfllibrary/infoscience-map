@@ -3,8 +3,8 @@ label-fr: Ressource liée
 name: datacite_relatedIdentifier
 schema: datacite
 dc-element: relatedIdentifier
-dc-qualifier: ''
-definition: Description coming soon...
+dc-qualifier: null
+definition: A related identifier or URI which is describing the related resource.
 obligation: optional
 type: descriptive
 repeatable: 'true'
@@ -15,6 +15,6 @@ indexes:
   - datacite.relatedIdentifier
 range:
 - label: URI
-  uri: ''
+  uri: null
   values:
   - ''

@@ -4,7 +4,8 @@ name: dc_relation_ispartof
 schema: dc
 dc-element: relation
 dc-qualifier: ispartof
-definition: Description coming soon...
+definition: A related resource in which the described resource is physically or logically
+  included. (e.g. A book title for a book chapter)
 obligation: requiredWhenAvailable
 type: descriptive
 repeatable: 'false'
@@ -15,6 +16,6 @@ indexes:
   - dc.relation.ispartof
 range:
 - label: String
-  uri: ''
+  uri: null
   values:
   - ''

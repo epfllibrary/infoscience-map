@@ -4,7 +4,7 @@ name: dc_identifier_acoua
 schema: dc
 dc-element: identifier
 dc-qualifier: acoua
-definition: Description coming soon...
+definition: ACOUA preservation identifier.
 obligation: requiredWhenAvailable
 type: administrative
 repeatable: 'true'
@@ -16,6 +16,6 @@ indexes:
   - dc.identifier.acoua
 range:
 - label: Acoua preservation identifier
-  uri: ''
+  uri: null
   values:
   - ''

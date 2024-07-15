@@ -3,18 +3,18 @@ label-fr: Demandeur(s)
 name: dcterms_rightHolder
 schema: dcterms
 dc-element: rightHolder
-dc-qualifier: ''
-definition: Description coming soon...
+dc-qualifier: null
+definition: Patent holder.
 obligation: requiredWhenAvailable
 type: descriptive
 repeatable: 'true'
-legacy_marc: ''
+legacy_marc: null
 indexes:
 - configuration: researchoutputs
   indexes:
   - dcterms.rightHolder
 range:
 - label: String
-  uri: ''
+  uri: null
   values:
   - ''

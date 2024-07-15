@@ -4,7 +4,7 @@ name: epfl_thesis_jury
 schema: epfl
 dc-element: thesis
 dc-qualifier: jury
-definition: Description coming soon...
+definition: Indicate the jury or examining committee for a thesis.
 obligation: optional
 type: descriptive
 repeatable: 'false'
@@ -15,6 +15,6 @@ indexes:
   - epfl.thesis.jury
 range:
 - label: String
-  uri: ''
+  uri: null
   values:
   - ''

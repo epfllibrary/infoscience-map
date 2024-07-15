@@ -4,7 +4,7 @@ name: epfl_legacy_itemtype
 schema: epfl
 dc-element: legacy
 dc-qualifier: itemtype
-definition: Description coming soon...
+definition: The legacy item type as defined in the old system.
 obligation: legacy
 type: legacy
 repeatable: 'false'
@@ -15,6 +15,22 @@ indexes:
   - epfl.legacy.itemtype
 range:
 - label: legacy_itemtypes
-  uri: ''
+  uri: null
   values:
-  - ''
+  - Book Chapters
+  - Books
+  - Conference Papers
+  - Conference Proceedings
+  - Datasets
+  - Journal Articles
+  - Media
+  - Patents
+  - Posters
+  - Physical objects
+  - Reports
+  - Reviews
+  - Student Projects
+  - Talks
+  - Teaching Material
+  - Theses
+  - Working Papers

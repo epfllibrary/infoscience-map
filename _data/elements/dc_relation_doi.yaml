@@ -4,17 +4,17 @@ name: dc_relation_doi
 schema: dc
 dc-element: relation
 dc-qualifier: doi
-definition: Description coming soon...
+definition: The Digital Object Identifier of the related resource. (e.g. book)
 obligation: requiredWhenAvailable
 type: descriptive
 repeatable: 'false'
-legacy_marc: ''
+legacy_marc: null
 indexes:
 - configuration: researchoutputs
   indexes:
   - dc.relation.doi
 range:
 - label: DOI identifier
-  uri: ''
+  uri: null
   values:
   - ''

@@ -42,7 +42,6 @@ descriptive:
 - dc_description_edition
 - epfl_part_name
 - epfl_part_number
-- epfl_part_section
 - oaire_citation_articlenumber
 - oaire_citation_endPage
 - oaire_citation_issue

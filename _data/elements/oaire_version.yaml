@@ -3,8 +3,9 @@ label-fr: Version du fichier
 name: oaire_version
 schema: oaire
 dc-element: version
-dc-qualifier: ''
-definition: Description coming soon...
+dc-qualifier: null
+definition: The version (e. g. preprint, postprint) of the resource. Refers to the
+  original publication. (file level)
 obligation: Required
 type: descriptive
 repeatable: 'false'
@@ -14,11 +15,12 @@ indexes:
   indexes:
   - oaire.version
 range:
-- label: List (coar_versions)
+- label: COAR version types vocabulary
   uri: https://vocabularies.coar-repositories.org/version_types/
   values:
-  - Submitted version (Preprint)
-  - Accepted version
-  - Published version
-  - Corrected Version
-  - Not Applicable (or Unknown)
+  - http://purl.org/coar/version/c_71e4c1898caa6e32 (submitted version or preprint)
+  - http://purl.org/coar/version/c_ab4af688f83e57aa (accepted version or accepted
+    manuscript)
+  - http://purl.org/coar/version/c_71e4c1898caa6e32 (published version)
+  - http://purl.org/coar/version/c_e19f295774971610 (corrected version)
+  - http://purl.org/coar/version/c_e19f295774971610 (not applicable or unknown)

@@ -4,17 +4,17 @@ name: cris_virtual_rid
 schema: cris
 dc-element: virtual
 dc-qualifier: rid
-definition: Description coming soon...
+definition: ResearcherID is an identifying system for scientific authors.
 obligation: virtualMetadata
 type: administrative
 repeatable: 'true'
-legacy_marc: ''
+legacy_marc: null
 indexes:
 - configuration: researchoutputs
   indexes:
   - cris.virtual.rid
 range:
 - label: ResearcherID identifier
-  uri: ''
+  uri: null
   values:
   - ''

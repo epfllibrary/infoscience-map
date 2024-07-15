@@ -3,7 +3,7 @@ label-fr: Évalué par les pairs
 name: epfl_peerreviewed
 schema: epfl
 dc-element: peerreviewed
-dc-qualifier: ''
+dc-qualifier: null
 definition: Description coming soon...
 obligation: required
 type: descriptive
@@ -15,7 +15,7 @@ indexes:
   - epfl.peerreviewed
 range:
 - label: List (peerreviewed)
-  uri: ''
+  uri: null
   values:
   - REVIEWED
   - NON-REVIEWED

@@ -4,7 +4,7 @@ name: dc_identifier_isi
 schema: dc
 dc-element: identifier
 dc-qualifier: isi
-definition: Description coming soon...
+definition: Web of science reference number.
 obligation: optional
 type: administrative
 repeatable: 'true'
@@ -16,6 +16,6 @@ indexes:
   - dc.identifier.isi
 range:
 - label: Web of Science Record identifier
-  uri: ''
+  uri: null
   values:
   - ''

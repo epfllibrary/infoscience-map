@@ -4,7 +4,7 @@ name: dc_identifier_iso
 schema: dc
 dc-element: identifier
 dc-qualifier: iso
-definition: Description coming soon...
+definition: ISO code number.
 obligation: requiredWhenAvailable
 type: descriptive
 repeatable: 'true'
@@ -16,6 +16,6 @@ indexes:
   - dc.identifier.iso
 range:
 - label: ISO
-  uri: ''
+  uri: null
   values:
   - ''

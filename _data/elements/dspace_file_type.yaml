@@ -4,7 +4,7 @@ name: dspace_file_type
 schema: dspace
 dc-element: file
 dc-qualifier: type
-definition: Description coming soon...
+definition: Type of the file
 obligation: Required
 type: descriptive
 repeatable: 'false'
@@ -15,7 +15,7 @@ indexes:
   - dspace.file.type
 range:
 - label: List (bitstream_types)
-  uri: ''
+  uri: null
   values:
   - main document
   - main dataset

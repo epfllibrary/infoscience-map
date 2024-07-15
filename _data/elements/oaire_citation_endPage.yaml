@@ -4,7 +4,7 @@ name: oaire_citation_endPage
 schema: oaire
 dc-element: citation
 dc-qualifier: endPage
-definition: Description coming soon...
+definition: The last page of the resource.
 obligation: recommended
 type: descriptive
 repeatable: 'false'
@@ -15,6 +15,6 @@ indexes:
   - oaire.citation.endPage
 range:
 - label: String
-  uri: ''
+  uri: null
   values:
   - ''

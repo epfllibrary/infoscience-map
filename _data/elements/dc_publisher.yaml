@@ -3,8 +3,9 @@ label-fr: Institution
 name: dc_publisher
 schema: dc
 dc-element: publisher
-dc-qualifier: ''
-definition: Description coming soon...
+dc-qualifier: null
+definition: An entity responsible for making the resource available (electronic publication,
+  distribution, or imprint).
 obligation: optional
 type: descriptive
 repeatable: 'false'
@@ -16,6 +17,6 @@ indexes:
   - dc.publisher
 range:
 - label: String
-  uri: ''
+  uri: null
   values:
   - ''

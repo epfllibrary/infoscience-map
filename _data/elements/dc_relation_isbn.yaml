@@ -4,17 +4,17 @@ name: dc_relation_isbn
 schema: dc
 dc-element: relation
 dc-qualifier: isbn
-definition: Description coming soon...
+definition: The ISBN of the related resource. (e.g. book)
 obligation: requiredWhenAvailable
 type: descriptive
 repeatable: 'true'
-legacy_marc: ''
+legacy_marc: null
 indexes:
 - configuration: researchoutputs
   indexes:
   - dc.relation.isbn
 range:
 - label: ISBN
-  uri: ''
+  uri: null
   values:
   - ''

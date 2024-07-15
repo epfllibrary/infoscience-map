@@ -4,7 +4,7 @@ name: dc_contributor_author
 schema: dc
 dc-element: contributor
 dc-qualifier: author
-definition: Description coming soon...
+definition: An entity primarily responsible for making the resource.
 obligation: requiredWhenAvailable
 type: descriptive
 repeatable: 'true'
@@ -17,6 +17,6 @@ indexes:
   - dc.contributor.author
 range:
 - label: String or author authority
-  uri: ''
+  uri: null
   values:
   - ''

@@ -4,11 +4,11 @@ name: oairecerif_advisor_affiliation
 schema: oairecerif
 dc-element: advisor
 dc-qualifier: affiliation
-definition: Description coming soon...
+definition: The advisor´ institutions.
 obligation: recommended
 type: descriptive
 repeatable: 'false'
-legacy_marc: ''
+legacy_marc: null
 indexes:
 - configuration: researchoutputs
   indexes:

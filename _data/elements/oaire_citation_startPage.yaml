@@ -4,7 +4,7 @@ name: oaire_citation_startPage
 schema: oaire
 dc-element: citation
 dc-qualifier: startPage
-definition: Description coming soon...
+definition: The first page of the resource.
 obligation: recommended
 type: descriptive
 repeatable: 'false'
@@ -15,6 +15,6 @@ indexes:
   - oaire.citation.startPage
 range:
 - label: String
-  uri: ''
+  uri: null
   values:
   - ''

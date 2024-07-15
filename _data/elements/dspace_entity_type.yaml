@@ -4,11 +4,11 @@ name: dspace_entity_type
 schema: dspace
 dc-element: entity
 dc-qualifier: type
-definition: Description coming soon...
+definition: The entity of the resource.
 obligation: automatic
 type: descriptive
 repeatable: 'false'
-legacy_marc: ''
+legacy_marc: null
 indexes:
 - configuration: researchoutputs
   indexes:
@@ -16,7 +16,7 @@ indexes:
   - dspace.entity.type
 range:
 - label: List of entities
-  uri: ''
+  uri: null
   values:
   - Publication
   - Product

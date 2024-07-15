@@ -4,7 +4,8 @@ name: dc_description_notes
 schema: dc
 dc-element: description
 dc-qualifier: notes
-definition: Description coming soon...
+definition: Typically refers to additional notes or comments related to the described
+  resource
 obligation: optional
 type: descriptive
 repeatable: 'true'
@@ -15,6 +16,6 @@ indexes:
   - dc.description.notes
 range:
 - label: String
-  uri: ''
+  uri: null
   values:
   - ''
