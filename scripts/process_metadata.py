@@ -1,29 +1,25 @@
-import csv
 import yaml
 import os
 from collections import OrderedDict, defaultdict
+from openpyxl import load_workbook
 
-input_file_path = "infoscience-map.tsv"
+input_file_path = "infoscience-map.xlsx"
 output_dir = "../_data/elements"
 order_file_path = "../_data/order.yml"
 
 os.makedirs(output_dir, exist_ok=True)
 
-
 class OrderedDumper(yaml.SafeDumper):
     pass
-
 
 def _dict_representer(dumper, data):
     return dumper.represent_dict(data.items())
 
-
 OrderedDumper.add_representer(OrderedDict, _dict_representer)
 
-
 def generate_yaml(data, index):
-    indexes_values = [value.strip() for value in data.get("indexes", "").split(",")]
-    range_values = [value.strip() for value in data.get("range_values", "").split(",")]
+    indexes_values = [value.strip() for value in (data.get("indexes", "") or "").split(",")]
+    range_values = [value.strip() for value in (data.get("range_values", "") or "").split(",")]
     filename = data.get("name", f"output_{index}")
 
     yaml_content = OrderedDict(
@@ -67,7 +63,7 @@ def generate_yaml(data, index):
 
     output_file_path = os.path.join(output_dir, f"{filename}.yaml")
 
-    with open(output_file_path, "w") as yaml_file:
+    with open(output_file_path, "w", encoding="utf-8") as yaml_file:
         yaml.dump(
             yaml_content,
             yaml_file,
@@ -88,7 +84,7 @@ def generate_order_yaml(rows):
     for mtype, names in order_dict.items():
         ordered_content[mtype] = names
 
-    with open(order_file_path, "w") as yaml_file:
+    with open(order_file_path, "w", encoding="utf-8") as yaml_file:
         yaml.dump(
             ordered_content,
             yaml_file,
@@ -97,12 +93,21 @@ def generate_order_yaml(rows):
             allow_unicode=True,
         )
 
-
+# Load data from the XLSX file
 rows = []
-with open(input_file_path, mode="r", encoding="utf-8") as file:
-    tsv_reader = csv.DictReader(file, delimiter="\t")
-    for index, row in enumerate(tsv_reader):
-        rows.append(row)
-        generate_yaml(row, index)
+wb = load_workbook(filename=input_file_path, read_only=True)
+ws = wb.active
+
+# Assuming the first row contains headers
+headers = [cell.value for cell in next(ws.iter_rows(min_row=1, max_row=1))]
+
+# Read data row by row
+for row in ws.iter_rows(min_row=2, values_only=True):
+    data = {headers[i]: row[i] for i in range(len(headers))}
+    rows.append(data)
+
+# Generate YAML files and order YAML
+for index, row in enumerate(rows):
+    generate_yaml(row, index)
 
 generate_order_yaml(rows)
